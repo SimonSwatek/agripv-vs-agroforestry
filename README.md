@@ -1,2 +1,2 @@
 # agripv-vs-agroforestry
-AgriPv pr Agroforestry? Sustainable energy production on farm.
+AgriPv or Agroforestry? Sustainable energy production on farm.
