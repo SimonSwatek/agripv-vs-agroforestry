@@ -1,0 +1,89 @@
+---
+title: "Agrivp vs. Agroforestry"
+author: "Group project"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+output:
+  html_document:
+    toc: yes
+    toc_float: yes
+    code_folding: hide
+    numbered: yes
+    theme: cerulean
+  pdf_document:
+    toc: yes
+---
+
+---
+
+<style>
+body {
+text-align: justify}
+</style>
+
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Decision Analysis and Forecasting for Agricultural Development
+Group Project by Julia, Jonas, Nick, Robin, Simon
+16/06/2023
+
+# 01 Introduction 
+
+> Welcome to this page. Here,a project is presented, that a group of students of the Faculty of Agriculture of the University of Bonn, Germany, have undertaken in the framework of the module "Decision Analysis and Forecasting for Agricultural Development". The aim of the module was to make us critical thinkers and lead the process in generating useful forecasts for decision makers in agricultural development. 
+( Please insert here more text of Lecture 1:Introduction)
+
+# The Decision
+
+**a short Introduction to the Decision**
+
+> In today's world, energy-related issues and environmental concerns have become increasingly prominent. As the demand for energy continues to rise, so does the need for sustainable and renewable sources. In light of these challenges, farmers are recognizing the opportunity to address both their agricultural needs and contribute to the solution through energy production on their farms.
+By embracing energy production methods such as Agriphotovoltaic (APV) or agroforestry, farmers can play a crucial role in tackling today's energy problematics. These approaches offer multiple benefits, including the diversification of income streams, environmental sustainability, efficient land utilization, enhanced resilience, conservation of biodiversity, and future-proofing their operations.
+Not only does energy production provide farmers with an additional revenue source, but it also helps reduce reliance on fossil fuels, mitigating greenhouse gas emissions. APV systems harness the power of the sun through solar panels while allowing crops to thrive beneath them. Agroforestry integrates trees within farming operations, fostering biodiversity and creating ecological balance. These methods optimize land use, making farms more productive and resilient.
+By embracing energy production on their farms, farmers can actively contribute to a sustainable future while ensuring the economic viability of their operations. This proactive approach allows them to adapt to changing market demands, comply with environmental regulations, and seize emerging opportunities in the renewable energy sector.
+
+![Fig1: Agroforestrysystem](./agroforestry.jpeg)
+
+>Agriphotovoltaic (APV) and agroforestry are two distinct approaches that integrate energy production with agricultural practices on farms. While both methods aim to maximize land use efficiency and promote sustainability, they have distinct characteristics and offer different benefits.
+Agriphotovoltaic involves the combination of solar panels and agricultural activities on the same land. The panels are elevated to create a canopy that provides shade for crops while generating renewable energy. This approach maximizes the use of land by allowing dual-purpose utilization for electricity production and agricultural cultivation. APV systems offer advantages such as increased renewable energy generation, improved water efficiency, and potential financial benefits from selling surplus energy.
+On the other hand, agroforestry is a land use system that integrates trees or shrubs with agricultural crops or livestock. It involves the deliberate planting of trees alongside or within agricultural fields. Agroforestry systems can take various forms, including alley cropping, silvopasture, or windbreaks. These systems offer several benefits, such as improved soil fertility, increased biodiversity, and enhanced climate resilience. The trees provide shade, wind protection, and nutrient cycling, which can positively impact crop yields and animal welfare.
+
+![Fig2: Agrophotovoltaicsystem](./agripv.png)
+
+>When comparing the two approaches for energy production on the farm, several factors come into play. Agriphotovoltaic systems excel in generating renewable energy and can provide a stable additional income stream for farmers. They require less time to establish compared to agroforestry systems and have a relatively low maintenance requirement. However, APV systems may have higher upfront costs associated with solar panel installation and require careful planning to optimize the arrangement of panels and crops.
+Agroforestry, on the other hand, offers a range of ecological benefits beyond energy production. The integration of trees improves soil health, reduces erosion, and enhances carbon sequestration. Agroforestry systems contribute to biodiversity conservation by providing habitat for wildlife and supporting pollinators. They can also help mitigate the impacts of climate change by providing shade and wind protection to crops and livestock.
+While both agriphotovoltaic and agroforestry have their distinct advantages, they are not mutually exclusive options. In fact, a synergistic approach that combines elements of both systems could be a viable solution. Integrating solar panels within agroforestry systems, for example, allows for simultaneous energy production, biodiversity enhancement, and improved microclimates for agricultural activities.
+Ultimately, the choice between agriphotovoltaic and agroforestry for energy production on the farm depends on various factors such as the farm's specific needs, available resources, and long-term goals. Both approaches offer opportunities to enhance sustainability, increase resilience, and contribute to a more integrated and efficient use of land for energy and agricultural production.
+
+>As part of the decision analysis and forecasting in agriculture module at the university of Bonn, we would like to take a closer look at the decision between the two systems for farmers. The following project is intended to facilitate the decision-making process for farmers and to help them make the best possible decision. 
+
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+
+# here we could start our first real code :) 
+
+```
+
+# Decision Maker
+
+**a short Text about our idea about the Decision Maker and maybe information about his location...**
+
+# Stakeholder
+
+**a short Text about the Stakeholders**
+
+
+# Input table
+
+**explaining the Input table or the variables we are using**
+
+>Where does the data come from?
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+
+
+```
+
+
