@@ -74,6 +74,11 @@ Ultimately, the choice between agriphotovoltaic and agroforestry for energy prod
 
 **a short Text about the Stakeholders**
 
+# Conceptual Model
+
+**a short Text about the Conceptual Model**
+
+![Fig3: Conceptual Model](./conceptual_model.png)
 
 # Input table
 
