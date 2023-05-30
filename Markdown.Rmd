@@ -76,7 +76,7 @@ Ultimately, the choice between agriphotovoltaic and agroforestry for energy prod
 
 # Conceptual Model
 
-**a short Text about the Conceptual Model**
+
 
 ![Fig3: Conceptual Model](./conceptual_model.png)
 
@@ -85,10 +85,3 @@ Ultimately, the choice between agriphotovoltaic and agroforestry for energy prod
 **explaining the Input table or the variables we are using**
 
 >Where does the data come from?
-
-```{r, echo=FALSE, message=FALSE, warning=FALSE}
-
-
-```
-
-
