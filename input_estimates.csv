@@ -1,0 +1,16 @@
+﻿variable;lower;upper;distribution;label;Description
+crop_yield;;;posnorm;Yield of crop [t/ha];Crops that are grown on the field 
+crop_monetary;;;posnorm;Market price of  crop [€/t];Price of crops
+subsidies_pv;;;const;Subsidies [€/ha];Subsidies for area of Agroforestry
+subsidies_af;;;const;Subsidies [€/ha];Subsidies for area of Agriphotovoltaik
+investment_cost_pv;;;posnorm;investment cost pv  [€/ha];Investment cost of the APV System
+profit_pv;;;posnorm;profits of pv  [€/ha];additionall Profits of the APV System - selling Energy
+annual_cost_pv;;;posnorm;annual cost pv  [€/ha];annual cost of the APV System
+yield_loss_pv ;;;posnorm;Yield loss of crops [%];Yield loss through smaller arable land area 
+fluctuation_af;;;posnorm;Price fluctuation of wood[€/ha];Energy wood has a possibility of high price flucuation 
+yield_loss_af;;;posnorm;Yield loss of crops [%];Yield loss through smaller arable land area 
+harvesting_cost_af;;;posnorm;Harvesting cost of wood [€/ha];Cost of harvesting the energy wood 
+profit_af;;;posnorm;profits of energy wood  [€/ha];additionall Profits of the AF System - selling Wood
+annual_cost_af;;;posnorm;annual cost af  [€/ha];annual cost of the AF System
+investment_cost_af;;;posnorm;investment cost af  [€/ha];Investment cost of the AF System
+ecosystem_service_af;;;posnorm;ecosystem service cost af  [€/ha];additional gain of species and reduction of Inputs of the AF System
