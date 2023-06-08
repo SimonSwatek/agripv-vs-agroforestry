@@ -8,6 +8,8 @@ library(DiagrammeR)
 
 DiagrammeR('graph LR
            B(Overall benefits)-->A(result)
+           A5(Social Acceptance)-->C
+           A5(Social Acceptance)-->D
            B2(Type of panel)-->G
            C((Benefits agroforestry))-->B
            I(Ecosystem Service)-->C
@@ -45,6 +47,7 @@ DiagrammeR('graph LR
            varD(profits)
            style P1  fill:yellow, stroke:#333,stroke-width:2px;
            style H1  fill:yellow, stroke:#333,stroke-width:2px;
+           style A5  fill:yellow, stroke:#333,stroke-width:2px;
            style I  fill:lightgreen, stroke:#333,stroke-width:2px;
            style J  fill:lightgreen, stroke:#333,stroke-width:2px;
            style Q  fill:lightgreen, stroke:#333,stroke-width:2px;
