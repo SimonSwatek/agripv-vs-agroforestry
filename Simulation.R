@@ -42,7 +42,7 @@ return(profits_crop, profits_pv, profits_af)
 }
 
 ###from seminar 6
-mcSimulation(estimate = as.estimate(input_estimates),
+mcSimulation(estimate = as.estimate(input_table),
              model_function = decision_model,
              numberOfModelRuns = 100,
              functionSyntax = "plainNames")
