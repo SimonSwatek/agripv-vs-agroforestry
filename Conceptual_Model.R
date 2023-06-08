@@ -15,7 +15,7 @@ DiagrammeR('graph LR
            A5(Transpirationrate)-->A2
            A4(PAR Radiation)-->A2
            J(Subsidies)-->C
-           N(Investment Cost)-->C
+           N(Investment Cost)-->P
            T(Hired Labour)-->N
            U(Transplants)-->N
            V(Machinery)-->N
