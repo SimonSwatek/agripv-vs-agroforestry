@@ -39,7 +39,8 @@ DiagrammeR('graph LR
            P1(Extreme weather event)-->C
            P1(Extreme weather event)-->D
            P1(Extreme weather event)-->K
-           H1(High price fluctation)-->C
+           H1(High price fluctation)-->P
+           H2(High price fluctation)-->Z
            A5(Social Acceptance)-->C
            A5(Social Acceptance)-->D
            varB(costs)
@@ -47,6 +48,7 @@ DiagrammeR('graph LR
            varD(profits)
            style P1  fill:yellow, stroke:#333,stroke-width:2px;
            style H1  fill:yellow, stroke:#333,stroke-width:2px;
+           style H2  fill:yellow, stroke:#333,stroke-width:2px;
            style A5  fill:yellow, stroke:#333,stroke-width:2px;
            style I  fill:lightgreen, stroke:#333,stroke-width:2px;
            style J  fill:lightgreen, stroke:#333,stroke-width:2px;
