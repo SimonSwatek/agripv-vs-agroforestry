@@ -11,9 +11,7 @@ DiagrammeR('graph LR
            B2(Type of panel)-->G
            C((Benefits agroforestry))-->B
            I(Ecosystem Service)-->C
-           A2(Abiotic factors)-->D
-           A5(Transpirationrate)-->A2
-           A4(PAR Radiation)-->A2
+           A4(PAR Radiation)-->E
            J(Subsidies)-->C
            N(Investment Cost)-->P
            T(Hired Labour)-->N
