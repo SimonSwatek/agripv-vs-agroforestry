@@ -8,8 +8,6 @@ library(DiagrammeR)
 
 DiagrammeR('graph LR
            B(Overall benefits)-->A(result)
-           A5(Social Acceptance)-->C
-           A5(Social Acceptance)-->D
            B2(Type of panel)-->G
            C((Benefits agroforestry))-->B
            I(Ecosystem Service)-->C
@@ -42,6 +40,8 @@ DiagrammeR('graph LR
            P1(Extreme weather event)-->D
            P1(Extreme weather event)-->K
            H1(High price fluctation)-->C
+           A5(Social Acceptance)-->C
+           A5(Social Acceptance)-->D
            varB(costs)
            varC(Risks)
            varD(profits)
