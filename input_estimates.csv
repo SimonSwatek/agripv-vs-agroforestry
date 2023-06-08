@@ -14,3 +14,12 @@ profit_af;;;posnorm;profits of energy wood  [€/ha];additionall Profits of the 
 annual_cost_af;;;posnorm;annual cost af  [€/ha];annual cost of the AF System
 investment_cost_af;;;posnorm;investment cost af  [€/ha];Investment cost of the AF System
 ecosystem_service_af;;;posnorm;ecosystem service cost af  [€/ha];additional gain of species and reduction of Inputs of the AF System
+social_af;;;posnorm;Occurrence [%];social acceptance of the population as a co-criterion 
+social_pv;;;posnorm;Occurrence [%];social acceptance of the population as a co-criterion 
+fluctuation_pv;;;posnorm;Price fluctuation of energy[€/ha];Energy has a possibility of high price flucuation 
+weather_af;;;posnorm;Occurrence [%];Possibility that an extrem weather occures 
+weather_pv;;;posnorm;Occurrence [%];Possibility that an extrem weather occures 
+weather_crop;;;posnorm;Occurrence [%];Possibility that an extrem weather occures 
+decreaseW_af;;;posnorm;damage [€/ha];monetary damage of the weather event 
+decreaseW_pv;;;posnorm;damage [€/ha];monetary damage of the weather event 
+decreaseW_crop;;;posnorm;damage [€/ha];monetary damage of the weather event 
