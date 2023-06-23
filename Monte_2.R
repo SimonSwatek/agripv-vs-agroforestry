@@ -42,12 +42,12 @@ profit_agroforestry             <- vv(var_mean = profit_af, var_CV, n_years)
 
 Investment_cost_photovoltaic    <- vv(var_mean = investment_cost_pv, var_CV, n_years)
 anual_cost_photovoltaic         <- vv(var_mean = annual_cost_pv, var_CV, n_years)
-yield_loss_photovoltaic         <- vv(var_mean = yield_loss_pv, var_CV, n_years)
+#yield_loss_photovoltaic        <- vv(var_mean = yield_loss_pv, var_CV, n_years)
 
 #costs_agroforestry
 
 investment_cost_agroforestry    <- vv(var_mean = investment_cost_af, var_CV, n_years)
-anual_cost_agroforestry        <- vv(var_mean = anual_cost_af, var_CV, n_years)
+annual_cost_agroforestry        <- vv(var_mean = annual_cost_af, var_CV, n_years)
 yield_loss_agroforestry         <- vv(var_mean = yield_loss_af, var_CV, n_years)
 
 # some trials wit rnorm()
@@ -193,34 +193,12 @@ example_mc_simulation <- mcSimulation(estimate = as.estimate(input_estimates_two
 
 
 
-result <- agrivp_vs_agroforestry_function_two()
 
 plot_distributions(mcSimulation_object = example_mc_simulation, 
                    vars = c("Gain_photovoltaic", "Gain_agroforestry", "Cost_pv", "Cost_af"),
                    method = 'smooth_simple_overlay', 
                    base_size = 7)
 
-# Extract the components from the returned list
-component_a <- result$
-component_b <- result$b
-component_c <- result$c
 
-# Print the extracted components
-print(component_a)
-print(component_b)
-print(component_c)
-
-
-
-
-
-
-# test area
-
-make_variables<-function(est,n=1)
-{ x<-random(rho=est, n=n)
-for(i in colnames(x)) assign(i, as.numeric(x[1,i]),envir=.GlobalEnv)}
-
-make_variables(estimate_read_csv("input_estimates_project.csv"))
-
-result_2 <- make_variables()
+#check main function 
+result <- agrivp_vs_agroforestry_function_two()
