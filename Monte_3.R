@@ -11,7 +11,6 @@ library(tidyverse)
 
 input_estimates_project <- read_delim("input_estimates_project.csv", 
                                                    delim = ";", escape_double = FALSE, trim_ws = TRUE)
-#View(input_estimates_project_updatedtrial)
 
 
 
@@ -201,10 +200,23 @@ example_mc_simulation <- mcSimulation(estimate = as.estimate(input_estimates_pro
 # Monte plots ----
 
 plot_distributions(mcSimulation_object = example_mc_simulation, 
-                   vars = c("Gain_photovoltaic", "Gain_agroforestry", "Gain_monoculture", "Cashflow_decison_do"),
+                   vars = c("Gain_photovoltaic", "Gain_agroforestry"),
                    method = 'smooth_simple_overlay', 
                    base_size = 7)
 
+decisionSupport::plot_distributions(mcSimulation_object = example_mc_simulation, 
+                                    vars = c("Gain_photovoltaic", "Gain_agroforestry"),
+                                    method = 'boxplot_density')
+
+decisionSupport::plot_distributions(mcSimulation_object = example_mc_simulation, 
+                                    vars = c("Gain_photovoltaic", "Gain_agroforestry"),
+                                    method = 'boxplot')
+
+
+pls_result <- plsr.mcSimulation(object = example_mc_simulation,
+                                resultName = names(example_mc_simulation$y)[2], ncomp = 1)
+
+plot_pls(pls_result, input_table = input_estimates_project)
 
 #check main function 
 result <- agrivp_vs_agroforestry_function_two()
