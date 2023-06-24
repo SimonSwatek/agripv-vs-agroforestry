@@ -1,27 +1,28 @@
-﻿Column1;variable;lower;median ;upper;distribution;label;Description
-1;crop_Yield;5;NA;10;posnorm;Yield of crop [t/ha];Crops that are grown on the field 
-2;crop_monetary;200;NA;500;posnorm;Market price of  crop [€/t];Price of crops
-3;subsidies_pv;10;NA;100;posnorm;Subsidies [€/ha];Subsidies for area of Agroforestry
-4;subsidies_af;10;NA;60;posnorm;Subsidies [€/ha];Subsidies for area of Agriphotovoltaik
-5;investment_cost_pv;200000;NA;800000;posnorm;investment cost pv  [€/ha];Investment cost of the APV System
-6;profit_pv;10000;NA;500000;posnorm;profits of pv  [€/ha];additionall Profits of the APV System - selling Energy
-7;annual_cost_pv;1000;NA;10000;posnorm;annual cost pv  [€/ha];annual cost of the APV System
-8;yield_loss_pv ;1000;NA;10000;posnorm;Yield loss of crops [%];Yield loss through smaller arable land area 
-9;fluctuation_af;10;NA;100;posnorm;Price fluctuation of wood[€/ha];Energy wood has a possibility of high price flucuation 
-10;yield_loss_af;10;NA;100;posnorm;Yield loss of crops [%];Yield loss through smaller arable land area 
-11;harvesting_cost_af;10;NA;100;posnorm;Harvesting cost of wood [€/ha];Cost of harvesting the energy wood 
-12;profit_af;5000;NA;50000;posnorm;profits of energy wood  [€/ha];additionall Profits of the AF System - selling Wood
-13;annual_cost_af;1000;NA;10000;posnorm;annual cost af  [€/ha];annual cost of the AF System
-14;investment_cost_af;19;NA;100;posnorm;investment cost af  [€/ha];Investment cost of the AF System
-15;ecosystem_service_af;1;NA;2;posnorm;ecosystem service cost af  [€/ha];additional gain of species and reduction of Inputs of the AF System
-16;social_af;1;NA;2;posnorm;Occurrence [%];social acceptance of the population as a co-criterion 
-17;social_pv;1;NA;2;posnorm;Occurrence [%];social acceptance of the population as a co-criterion 
-18;fluctuation_pv;1;NA;2;posnorm;Price fluctuation of energy[€/ha];Energy has a possibility of high price flucuation 
-19;weather_af;1;NA;2;posnorm;Occurrence [%];Possibility that an extrem weather occures 
-20;weather_pv;1;NA;2;posnorm;Occurrence [%];Possibility that an extrem weather occures 
-21;weather_crop;1;NA;2;posnorm;Occurrence [%];Possibility that an extrem weather occures 
-22;decreaseW_af;1;NA;2;posnorm;damage [€/ha];monetary damage of the weather event 
-23;decreaseW_pv;1;NA;2;posnorm;damage [€/ha];monetary damage of the weather event 
-24;decreaseW_crop;1;NA;2;posnorm;damage [€/ha];monetary damage of the weather event 
-25;n_years;6;NA;6;const;;
-26;var_CV;8;NA;12;posnorm;;
+﻿variable;lower;median ;upper;distribution;label;Description
+crop_Yield;5;NA;10;posnorm;Yield of crop [t/ha];Crops that are grown on the field 
+subsidies_pv;100;NA;100;const;Subsidies [€/ha];Subsidies for area of Agroforestry
+subsidies_af;60;NA;60;const;Subsidies [€/ha];Subsidies for area of Agriphotovoltaik
+investment_cost_pv;5000;NA;5000;const;investment cost pv  [€/ha];Investment cost of the APV System
+annual_cost_pv;1000;NA;10000;posnorm;annual cost pv  [€/ha];annual cost of the APV System
+Yield_loss_pv;1000;NA;10000;posnorm;Yield loss of crops [%];Yield loss through smaller arable land area 
+yield_loss_af;10;NA;100;posnorm;Yield loss of crops [%];Yield loss through smaller arable land area 
+harvesting_cost_af;50;NA;50;const;Harvesting cost of wood [€/ha];Cost of harvesting the energy wood 
+annual_cost_af;500;NA;500;const;annual cost af  [€/ha];annual cost of the AF System
+investment_cost_af;50;NA;50;const;investment cost af  [€/ha];Investment cost of the AF System
+ecosystem_service_af;1;NA;2;posnorm;ecosystem service cost af  [€/ha];additional gain of species and reduction of Inputs of the AF System
+social_af;1;NA;2;posnorm;Occurrence [%];social acceptance of the population as a co-criterion 
+social_pv;1;NA;2;posnorm;Occurrence [%];social acceptance of the population as a co-criterion 
+weather_af;1;NA;2;posnorm;Occurrence [%];Possibility that an extrem weather occures 
+weather_pv;1;NA;2;posnorm;Occurrence [%];Possibility that an extrem weather occures 
+weather_crop;1;NA;2;posnorm;Occurrence [%];Possibility that an extrem weather occures 
+decreaseW_af;1;NA;2;posnorm;damage [€/ha];monetary damage of the weather event 
+decreaseW_pv;1;NA;2;posnorm;damage [€/ha];monetary damage of the weather event 
+decreaseW_crop;1;NA;2;posnorm;damage [€/ha];monetary damage of the weather event 
+n_years;6;NA;6;const;;
+var_CV;8;NA;12;posnorm;;
+crop_area;10;NA;100;posnorm;crop/ha;
+crop_price;50;NA;100;posnorm;price/ha;
+area_pv;10;NA;30;posnorm;pv/ha;
+area_af;10;NA;30;posnorm;af/ha;
+electrical_energy_yield;1500;NA;3000;posnorm;€/ha;
+wood_energy_yield;100;NA;200;posnorm;€/ha;
