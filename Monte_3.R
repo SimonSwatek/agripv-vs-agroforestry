@@ -9,8 +9,7 @@ library(decisionSupport)
 library(vctrs)
 library(tidyverse)
 
-input_estimates_project <- read_delim("input_estimates_project.csv", 
-                                                   delim = ";", escape_double = FALSE, trim_ws = TRUE)
+input_estimates_project <- read_delim("input_estimates_project.csv", delim = ";", escape_double = FALSE, trim_ws = TRUE)
 
 
 
@@ -27,7 +26,7 @@ agrivp_vs_agroforestry_function_two <- function(x,varnames){
 
 # pre-calculation of common random draws for all intervention model runs ----    
   
-# benefits/gain concentional monocrop system Wheat Germany 
+# benefits/gain conventional monocrop system Wheat Germany 
   
 No_Intervention <- 
   vv(var_mean = crop_Yield, var_CV, n_years)*
@@ -217,6 +216,8 @@ pls_result <- plsr.mcSimulation(object = example_mc_simulation,
                                 resultName = names(example_mc_simulation$y)[2], ncomp = 1)
 
 plot_pls(pls_result, input_table = input_estimates_project)
+
+
 
 #check main function 
 result <- agrivp_vs_agroforestry_function_two()
