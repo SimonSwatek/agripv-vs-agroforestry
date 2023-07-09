@@ -1,28 +1,28 @@
-ï»¿variable;lower;median ;upper;distribution;label;Description
-crop_Yield;5;NA;10;posnorm;Yield of crop [t/ha];Crops that are grown on the field 
-subsidies_pv;100;NA;100;const;Subsidies [â‚¬/ha];Subsidies for area of Agroforestry
-subsidies_af;60;NA;60;const;Subsidies [â‚¬/ha];Subsidies for area of Agriphotovoltaik
-investment_cost_pv;5000;NA;5000;const;investment cost pv  [â‚¬/ha];Investment cost of the APV System
-annual_cost_pv;1000;NA;10000;posnorm;annual cost pv  [â‚¬/ha];annual cost of the APV System
-Yield_loss_pv;1000;NA;10000;posnorm;Yield loss of crops [%];Yield loss through smaller arable land area 
-yield_loss_af;10;NA;100;posnorm;Yield loss of crops [%];Yield loss through smaller arable land area 
-harvesting_cost_af;50;NA;50;const;Harvesting cost of wood [â‚¬/ha];Cost of harvesting the energy wood 
-annual_cost_af;500;NA;500;const;annual cost af  [â‚¬/ha];annual cost of the AF System
-investment_cost_af;50;NA;50;const;investment cost af  [â‚¬/ha];Investment cost of the AF System
-ecosystem_service_af;1;NA;2;posnorm;ecosystem service cost af  [â‚¬/ha];additional gain of species and reduction of Inputs of the AF System
-social_af;1;NA;2;posnorm;Occurrence [%];social acceptance of the population as a co-criterion 
-social_pv;1;NA;2;posnorm;Occurrence [%];social acceptance of the population as a co-criterion 
-weather_af;1;NA;2;posnorm;Occurrence [%];Possibility that an extrem weather occures 
-weather_pv;1;NA;2;posnorm;Occurrence [%];Possibility that an extrem weather occures 
-weather_crop;1;NA;2;posnorm;Occurrence [%];Possibility that an extrem weather occures 
-decreaseW_af;1;NA;2;posnorm;damage [â‚¬/ha];monetary damage of the weather event 
-decreaseW_pv;1;NA;2;posnorm;damage [â‚¬/ha];monetary damage of the weather event 
-decreaseW_crop;1;NA;2;posnorm;damage [â‚¬/ha];monetary damage of the weather event 
-n_years;6;NA;6;const;;
-var_CV;8;NA;12;posnorm;;
-crop_area;10;NA;100;posnorm;crop/ha;
-crop_price;50;NA;100;posnorm;price/ha;
-area_pv;10;NA;30;posnorm;pv/ha;
-area_af;10;NA;30;posnorm;af/ha;
-electrical_energy_yield;1500;NA;3000;posnorm;â‚¬/ha;
-wood_energy_yield;100;NA;200;posnorm;â‚¬/ha;
+variable;lower;median ;upper;distribution;label;Description;;;
+n_years;6;NA;6;const;;;;;
+var_CV;8;NA;12;posnorm;;;;;
+field_preparation;45;NA;170;posnorm;preparation of field [€/ha];Preparation includes herbicide, soil preparation, soil cultivation (ONE TIME EXENDITURE);;;#für den Code hinzufügen
+crop_Yield;672.99;NA;2190.987;posnorm;Yield of crop [€/ha];Crops that are grown on the field ;;;#precalc crop herrausnehmen
+cost_of_crop;600;NA;1250;posnorm;Costs from the crop [€/ha];Crops that are grown on the field ;;;#Einfügen in den Code
+crop_area;0.66;NA;0.8;posnorm;Crop area of field [% / ha];area of the field that is occupied by the staple crop;;;
+weather_crop;1;NA;2;posnorm;Occurrence [%];Possibility that an extrem weather occures ;;;
+decreaseW_crop;1;NA;2;posnorm;damage [euro/ha];monetary damage of the weather event ;;;
+area_af;10;NA;30;posnorm;af area/ha [%];;;;
+wood_energy_yield;550;NA;3000;posnorm;wood profits euro/ha;;;;
+subsidies_af;60;NA;60;const;Subsidies [euro/ha];Subsidies for area of Agriphotovoltaik;;;
+yield_loss_af;0.1;NA;0.3;posnorm;Yield loss of crops  [%];Yield loss through smaller arable land area as parameter;;;
+annual_cost_af;1000;NA;30000;posnorm;annual cost af  [euro/ha];annual cost of the AF System;;;#ändern von cons in posnorm
+investment_cost_af;1000;NA;1500;posnorm;investment cost af  [euro/ha];Investment cost of the AF System;;;#ändern von cons in posnorm +HARVESTING_COSTS SIND DRAUSSEN AMENAKOIM
+ecosystem_service_af;20;NA;500;posnorm;ecosystem service benefits af  [euro/ha];additional gain of species and reduction of Inputs of the AF System;;;
+social_af;0.001;NA;0.05;posnorm;Occurrence [%];social acceptance of the population as a co-criterion ;;;
+weather_af;0.000001;NA;0.15;posnorm;Occurrence [%];Possibility that an extrem weather occures ;;;#für den code anpassen
+decreaseW_af;0.000001;NA;7500;posnorm;damage [euro/ha];monetary damage of the weather event ;;;
+subsidies_pv;100;NA;100;const;Subsidies [euro/ha];Subsidies for area of Agroforestry;;;
+investment_cost_pv;500000;NA;500000;const;investment cost pv  [euro/ha];Investment cost of the APV System;;;
+annual_cost_pv;1000;NA;10000;posnorm;annual cost pv  [euro/ha];annual cost of the APV System;;;
+Yield_loss_pv;1000;NA;10000;posnorm;Yield loss of crops [%];Yield loss through smaller arable land area ;;;
+social_pv;1;NA;2;posnorm;Occurrence [%];social acceptance of the population as a co-criterion ;;;
+weather_pv;1;NA;2;posnorm;Occurrence [%];Possibility that an extrem weather occures ;;;
+decreaseW_pv;1;NA;2;posnorm;damage [euro/ha];monetary damage of the weather event ;;;
+area_pv;10;NA;30;posnorm;pv area/ha [%];;;;
+electrical_energy_yield;1500;NA;3000;posnorm;power profit euro/ha;;;;
