@@ -30,7 +30,6 @@ Decision Analysis and Forecasting for Agricultural Development
 =======
 Group Project by Julia, Jonas, Nick, Robin, Simon
 16/06/2023
->>>>>>> 446c7528209b4ade7f7558eb839861a73dfddab1
 
 # Introduction 
 In 2022, 20.4% of german final energy consumption was covered by renewable energy. Considering the production of electricity from renewables the renewable heat sector and the production of biogenic fuels, biomass is the most important source of renewable energy, covering 52% of final energy. Solar energy provides 14% of total renewable energy for the aforementioned sectors, focusing on electricity and heat.  The production of solar energy has increased by 57% over a five year period (2017 – 2022), while the production of energy through biomass stayed rather constant, increasing only about 1%. The relative importance of biomass as a source of renewable energy on the other hand increased. The reason being the decrease in energy production using nuclear power plants and fossil fuels,  which makes the “on demand” energy production, that biomass ensures all the more important in case neither wind turbines nor photovoltaics deliver enough energy to meet demands (LEWICKI, 2013). On EU-level, biomass continues to be the main source of renewable energy (about 60% of total renewable energy). Although most biomass for energy is produced within the EU, 4% are currently being imported (EUROPEAN COMMISSION. JOINT RESEARCH CENTRE., 2019). Biomass as well as photovoltaics will likely continue to play a major role in germany’s shift to a carbon neutral energy production. 
@@ -63,7 +62,7 @@ For simplification, we decided to work on the principle of complete feed-in of t
 In real life, the profit would consist of the saved electricity costs per month (individual own consumption in kwh x electricity price (0.42 €)) and the monthly income from the sale of electricity.
 
 
-![Fig1: Agrophotovoltaicsystem. Reference: ÖkoHaus GmbH](./agripv.png)
+![Fig. 1: Agrophotovoltaicsystem. Reference: ÖkoHaus GmbH](./agripv.png)
 
 **System specificities – Agroforestry system (AFS):**
 
@@ -77,8 +76,15 @@ While diversification of income streams is an effective risk management strategy
 In terms of energy production, should a commercial conventional arable farmer in North Rhine-Westphalia, Germany, rather establish an agroforestry system or an agriphotovoltaic system on his land?
 
 ![Fig. 3: Decision options](./Decision_grafic.png)
-Based on these guiding questions, three scenarios can be derived which we referred to in our
+
+Based on these guiding questions, two scenarios can be derived which we referred to in our
 decision-support. For this, we clearly defined them as follows:
+
+**JULIA GO***
+
+
+[Fig3: Decision options](./Decision_grafic.png)
+
 
 # Decision Maker
 
@@ -91,14 +97,14 @@ Changing farming operations means making changes to the biophysical functionalit
 # Conceptual Model
 
 The conceptual model of the decision consists of two main parts (see figure 4).
-The first part includes the direct investment costs, the running costs and the profit of both decision options (see figure xx).
+The first part includes the direct investment costs, the running costs and the profit of both decision options (see figure 5).
 
 ![Fig. 4: Concept Model](./Agri-Pv_vs_Agroforst.png)
 
 The actual conceptual model is illustrated in figure 5.
 The cost of an agroforestry system is composed of the investment cost, the running cost, and the profit margin. Investment costs include mainly those for consultation as well as planning of the system, costs for wages and the transplants. Running costs are the recurring cost items of maintaining the agroforestry system. These are costs mainly in the first three years. This includes watering the cuttings and good weed management. In addition, we have included the risk of price fluctuation, which can occur either in the timber yield or in the timber price. In both cases, mainly the profit margin would be reduced. The only constant regarding the calculation of the profit margin is assumed to be the support from the GAP (Common Agricultural Policy). The other component of the model consists of the Agri-PV plant. In our project, we decided to include all aspects of the apple orchard, even if they are not complemented by the presence of chickens. So, similar to agroforestry, it is about the cost and the profit in terms of energy production. The profit is mainly derived from the Renewable Energy Sources Act (EEG) price and the amount of solar irradiation, which is influenced by the location. For the costs, a distinction was made between investment and running costs. Investment costs include photovoltaic modules, substructure, grid feed, inverter, price of installation and mounting. The running costs include the deposit insurance to operate an Agri-PV system and the maintenance costs.
 
-These costs were expressed on a per acre basis so that they could be scaled between the two main parts of the decision.
+These costs were expressed on a per hectare basis so that they could be scaled between the two main parts of the decision.
 
 ![Fig. 5: Conceptual Model](./DecisionMarkdown.png)
 
@@ -129,22 +135,17 @@ Therefore, these costs were obtained from open space PV (top agrar, 2021).
 
 # Outcome
 
+
 # Discussion
+  >When comparing the two approaches for energy production on the farm, several factors come into play. Agriphotovoltaic systems excel in generating renewable energy and can provide a stable additional income stream for farmers. They require less time to establish compared to agroforestry systems and have a relatively low maintenance requirement. However, APV systems may have higher upfront costs associated with solar panel installation and require careful planning to optimize the arrangement of panels and crops.
+Agroforestry, on the other hand, offers a range of ecological benefits beyond energy production. The integration of trees improves soil health, reduces erosion, and enhances carbon sequestration. agroforestry systems contribute to biodiversity conservation by providing habitat for wildlife and supporting pollinators. They can also help mitigate the impacts of climate change by providing shade and wind protection to crops and livestock.
+While both agriphotovoltaic and agroforestry have their distinct advantages, they are not mutually exclusive options. In fact, a synergistic approach that combines elements of both systems could be a viable solution. Integrating solar panels within agroforestry systems, for example, allows for simultaneous energy production, biodiversity enhancement, and improved microclimates for agricultural activities. *1
+Ultimately, the choice between agriphotovoltaic and agroforestry for energy production on the farm depends on various factors such as the farm's specific needs, available resources, and long-term goals. Both approaches offer opportunities to enhance sustainability, increase resilience, and contribute to a more integrated and efficient use of land for energy and agricultural production.
 
-> When comparing the two approaches for energy production on the farm, several factors come into play.
-> Agriphotovoltaic systems excel in generating renewable energy and can provide a stable additional income stream for farmers.
-> They require less time to establish compared to agroforestry systems and have a relatively low maintenance requirement.
-> However, APV systems may have higher upfront costs associated with solar panel installation and require careful planning to optimize the arrangement of panels and crops.
-> Agroforestry, on the other hand, offers a range of ecological benefits beyond energy production.
-> The integration of trees improves soil health, reduces erosion, and enhances carbon sequestration.
-> Agroforestry systems contribute to biodiversity conservation by providing habitat for wildlife and supporting pollinators.
-> They can also help mitigate the impacts of climate change by providing shade and wind protection to crops and livestock.
-> While both agriphotovoltaic and agroforestry have their distinct advantages, they are not mutually exclusive options.
-> In fact, a synergistic approach that combines elements of both systems could be a viable solution.
-> Integrating solar panels within agroforestry systems, for example, allows for simultaneous energy production, biodiversity enhancement, and improved microclimates for agricultural activities.
-> Ultimately, the choice between agriphotovoltaic and agroforestry for energy production on the farm depends on various factors such as the farm's specific needs, available resources, and long-term goals.
-> Both approaches offer opportunities to enhance sustainability, increase resilience, and contribute to a more integrated and efficient use of land for energy and agricultural production.
 
+SIMON: Additional aspects for discussion:
+- Liefecycle assesment! 
+*1 Using solar energy and biomass for electricity and heat production will be essential for a more sustainable society and economy. Their true effect on the earths climate however, depends on a multitude of factors, that have to be considered, when deciding which system is the overall more sustainable. This requires a full lifecycle assessment of both energy production systems. The agroforestry system as the "low-tech" option, might at first glance seem like a carbon- and climate neutral "nature based solution", while the "high-tech" option, namely agriphotovoltaics, are more obviously linked to the extraction and consumption of non-renewable resources (i.e. for the production of solar panels). But also the production of biomass-tree cuttings requires considerable amounts of energy, since the production facilities use high amounts of nitrogen fertilizers and sythetic pesticides. The harvest, drying, storage and transportation of the wood chips are also energy intensive. Hence the importance of a thorough calculation of all energy inputs in both systems over their complete lifecycle, including the recultivation of the arable field, once the farmer decides to remove the energy production component, and the recycling of the solar panels. 
 
 # Outlook
 As mentioned above, in both systems we consider a complete hectare of the systems.
@@ -162,6 +163,7 @@ Within the framework of our project, the operation of two systems - Agri-PV and 
 The focus here is only on the economic consideration of the effects on agricultural management and energy production.
 The system could be considered in terms of microclimate changes on the regular crop, public acceptance and the increasingly frequent Weather-related extreme events.
 Due to complexity reasons this has not been considered yet.
+
 
 # References
 Luedeling, Eike, Lutz Goehring, Katja Schiffers, Cory Whitney, and Eduardo Fernandez. 2021. decisionSupport: Quantitative Support of Decision Making Under Uncertainty. https://cran.r-project.org/web/packages/decisionSupport/index.html.
