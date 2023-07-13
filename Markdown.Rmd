@@ -56,7 +56,7 @@ Compared to ground-mounted systems, a greater diversity of systems can be observ
 Therefore, we decided for this study to use the category II (ground-mounted \< 2.1 m) with the utilization form 2B (annual and perennial crops) of DIN SPEC 91434. The advantages of ground-based systems are primarily their lower cost and low impact on the landscape. Agri-PV systems should generally be permitted on all arable land. This enables both agricultural and energy use of one and the same area. Support with GAP funds continues to be possible, provided that agricultural use is only impaired by up to 15 % due to electricity generation.This is due to the fact that cultivation takes place between the Agri-PV crop rows, similar to agroforestry.
 Self-supply with electricity will become much more attractive.
 This is because there will no longer be any levies on own consumption and direct supply downstream of the grid interconnection point.
-The levy under the Combined Heat and Power Act (Kraft-Wärme-Kopplungsgesetz) and the offshore grid levy are only charged for electricity drawn from the public grid.
+The levy under the Combined Heat and Power Act (Kraft-Wärme-Kopplungsgesetz) and the offshore grid levy are only charged for electricity drawn from the public grid (§ 12 Abs. 1 EnFG).
 Therefore, we decided to assume the installation of a a 1000 kWp (1MWP) per hektar system within the following model.
 For simplification, we decided to work on the principle of complete feed-in of the generated electricity.
 In real life, the profit would consist of the saved electricity costs per month (individual own consumption in kwh x electricity price (0.42 €)) and the monthly income from the sale of electricity.
