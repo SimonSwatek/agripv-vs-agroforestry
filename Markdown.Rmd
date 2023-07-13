@@ -48,7 +48,7 @@ The combined use of agricultural land for food production and PV power generatio
 Agri-PV provides opportunities for farms to diversify their income and close internal-farm rotation.
 In particular, reduced evaporation rates and protection from hail and frost are important factors.
 By utilizing existing scaffolding structures, additional protection systems can also be integrated in a cost-effective manner, , which plays an especially important role in the production of high value horicultural crops like fruits.
-This can significantly increase the productivity and value of agricultural land in warm and dry years (Universität Hohenheim, 2021).
+This can significantly increase the productivity and value of agricultural land in warm and dry years (Trommsdorff et al., 2021).
 However, there are challenges to agricultural production when using Agri-PV.
 These include, above all, the changing light conditions and the more difficult cultivation due to the elevation.
 To minimize risks and make the best use of synergy effects, suitable crops should therefore be combined with the appropriate system design.The above arguments are quite difficult to title with values, as they can be both advantages and disadvantages. A really positive argument for this system is the decentralized approach of Agri-PV, it offers the chance to involve municipal actors and regional citizen cooperatives as well as citizens and to increase the regional value creation. 
@@ -101,7 +101,7 @@ The first part includes the direct investment costs, the running costs and the p
 ![Fig. 4: Concept Model](./Agri-Pv_vs_Agroforst.png)
 
 The actual conceptual model is illustrated in figure 5.
-The cost of an agroforestry system is composed of the investment cost, the running cost, and the profit margin. Investment costs include mainly those for consultation as well as planning of the system, costs for wages and the transplants. Running costs are the recurring cost items of maintaining the agroforestry system. These are costs mainly in the first three years. This includes watering the cuttings and good weed management. In addition, we have included the risk of price fluctuation, which can occur either in the timber yield or in the timber price. In both cases, mainly the profit margin would be reduced. The only constant regarding the calculation of the profit margin is assumed to be the support from the GAP (Common Agricultural Policy). The other component of the model consists of the Agri-PV plant. In our project, we decided to include all aspects of the apple orchard, even if they are not complemented by the presence of chickens. So, similar to agroforestry, it is about the cost and the profit in terms of energy production. The profit is mainly derived from the Renewable Energy Sources Act (EEG) price and the amount of solar irradiation, which is influenced by the location. For the costs, a distinction was made between investment and running costs. Investment costs include photovoltaic modules, substructure, grid feed, inverter, price of installation and mounting. The running costs include the deposit insurance to operate an Agri-PV system and the maintenance costs.
+The cost of an agroforestry system is composed of the investment cost, the running cost, and the profit margin. Investment costs include mainly those for consultation as well as planning of the system, costs for wages and the transplants. Running costs are the recurring cost items of maintaining the agroforestry system. These are costs mainly in the first three years. This includes watering the cuttings and good weed management. In addition, we have included the risk of price fluctuation, which can occur either in the timber yield or in the timber price. In both cases, mainly the profit margin would be reduced. The only constant regarding the calculation of the profit margin is assumed to be the support from the GAP (Common Agricultural Policy). The other component of the model consists of the Agri-PV plant. So, similar to agroforestry, it is about the cost and the profit in terms of energy production. The profit is mainly derived from the Renewable Energy Sources Act (EEG) price and the amount of solar irradiation, which is influenced by the location. For the costs, a distinction was made between investment and running costs. Investment costs include photovoltaic modules, substructure, grid feed, inverter, price of installation and mounting. The running costs include the deposit insurance to operate an Agri-PV system and the maintenance costs.
 
 These costs were expressed on a per hectare basis so that they could be scaled between the two main parts of the decision.
 
@@ -109,16 +109,12 @@ These costs were expressed on a per hectare basis so that they could be scaled b
 
 # Code
 
-This chapter describes the methods and procedures used to analyze the decisionprocess.
+This chapter describes the methods and procedures used to analyze the decision process.
 The procedure or working method used here is represented chronologically by the subdivision into different subsections.
 All presented calculation and analysis procedures were carried out using the statistical software "R version 4.2.1" (R Development Core Team 2022) with the help of the "decisionSupport" package (Lüdeling et al.,2021).
 The "decisionSupport" package supports the quantitative analysis of welfare based decision making processes using Monte Carlo simulations, which predicts possible outcomes of an uncertain event (Lüdeling et al., 2021).
 
 > **Sowas wie: In order to be able to answer the options formulated at the beginning, the aim was to conduct a vv() function. For this purpose, the..**
-
-This chapter describes the methods and procedures used to analyze the decisionprocess. The procedure or working method used here is represented chronologically by the subdivision into different subsections. All presented calculation and analysis procedures were carried out using the statistical software "R version 4.2.1" (R Development Core Team 2022) with the help of the "decisionSupport" package (Lüdeling et al.,2021). The "decisionSupport" package supports the quantitative analysis of welfare based decision making processes using Monte Carlo simulations, which predicts possible outcomes of an uncertain event (Lüdeling et al., 2021)
-
-**Sowas wie: In order to be able to answer the options formulated at the beginning, the aim was to conduct a vv() function. For this purpose, the..**
 
 # Input table
 
@@ -180,6 +176,8 @@ Due to complexity reasons this has not been considered yet.
 # References
 Bayerische Landesanstalt für Landwirtschaft (2023). Aktuelle Fördersätze für Photovoltaik-Anlagen ab 1. Januar 2023. LfL. https://www.lfl.bayern.de/iba/energie/161645/index.php
 
+Böcker, T. (2022). Auswertung der Schlagkarteien für Getreide, Winterraps & Leguminosen - Ernte 2022 - Zusammengefasste Ergebnisse. Landwirtschaftskammer NRW.
+
 Böhm, C. (2022). Themenblatt Nr. 3: Agroforstsysteme in der GAP ab 2023 – ein Überblick. https://agroforst-info.de/wp-content/uploads/2022/11/Themenblatt3-Agroforstsysteme-in-der-GAP-ab-2023.pdf
 
 Deutscher Bauernverband (2022). Agri-Photovoltaik: bessere Chancen für kleinere Anlagen.(extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.bauernverband.de/fileadmin/user_upload/dbv/pressemitteilungen/2022/KW_21_bis_KW_40/KW_41/2022_-_130_PM_Agri-Photovoltaik_Korrektur.pdf)
@@ -192,6 +190,8 @@ Aktuelle Fakten zur Photovoltaik in Deutschland, PSE PSE Projects GmbH. https://
 ICRAF. (2017). World Agroforestry | Transforming Lives and Landscapes with Trees. https://www.worldagroforestry.org/sites/default/files/users/admin/Strategy%20Report_2017.pdf
 
 Jose, S. (2009). Agroforestry for ecosystem services and environmental benefits: an overview. Agroforestry Systems, 76(1), 1–10. https://doi.org/10.1007/s10457-009-9229-7
+
+Langenberg, J., Feldmann, M., Theuvsen, L., Langenberg, J., Feldmann, M., & Theuvsen, L. (2018). Agroforstsysteme im Alley-Cropping-Anbauverfahren: Eine Risikoanalyse im Vergleich zum klassischen Ackerbau anhand der Monte-Carlo-Simulation. https://doi.org/10.22004/AG.ECON.309977
 
 Lewicki, P. (2013, Juni 10). Erneuerbare Energien in Zahlen [Text]. Umweltbundesamt; Umweltbundesamt. https://www.umweltbundesamt.de/themen/klima-energie/erneuerbare-energien/erneuerbare-energien-in-zahlen
 
