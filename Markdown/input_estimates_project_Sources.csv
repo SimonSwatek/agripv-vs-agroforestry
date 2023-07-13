@@ -1,0 +1,27 @@
+variable;lower;median ;upper;distribution;label;Description;Sources
+crop_price;200;NA;300;posnorm;Price of crop rotation [â‚¬/t];Market price wheat per t;"(Langenberg et al., 2018 ; Böcker, 2022)"
+crop_area;1;NA;1;const;Crop/ha;is only applied for wheat monoculture;/
+crop_Yield;7;NA;8;posnorm;Yield of crop [t/ha];Crops that are grown on the field ;"(Langenberg et al., 2018 ; Böcker, 2022)"
+subsidies_af;60;NA;60;const;Subsidies_af [â‚¬/ha];Subsidies for area of agroforestry;(agriculture.ec.europa.eu, 2023)
+investment_cost_pv;25000;NA;30800;posnorm;Investment cost pv  [â‚¬/ha];Investment cost of the APV System /26 years = n_years, input tabelle ;(Bellini, 2021, top agrar, 2021)
+annual_cost_af;500;NA;500;const;Annual cost af  [â‚¬/ha];annual cost of the AF System;(Schweier & Becker, 2013)
+investment_cost_af;50;NA;50;const;Investment cost af  [â‚¬/ha];Investment cost of the AF System;(Sächsisches Staatsministerium für Umwelt und Landwirtschaft, 2023)
+ecosystem_service_af;1000;NA;13000;posnorm;Ecosystem service af  [â‚¬/ha];additional gain of species and reduction of Inputs of the AF System;(Ninan & Inoue, 2013)
+n_years;26;NA;26;const;"Integer; number of values to produce";production time window ;/
+var_CV;8;NA;12;posnorm;Coefficient of variation;;/
+area_pv;0.1;NA;0.3;posnorm;Area pv strips [%] ;How much area is used for photovoltaic installation;/
+area_af;0.1;NA;0.3;posnorm;Area af strips [%] ;How much area is used for agroforestry installation;/
+field_preparation_af;1.73;NA;6.53;posnorm;Af field preparation [Euro/ha];;(Aust et al., 2013)
+price_cutting_af;0.001;NA;0.018;posnorm;Af price per clone [â‚¬/piece];;(LEL - Landesanstalt für Entwicklung der Landwirtschaft und der ländlichen Räume) & (https://www.energiepflanzen.com/product/max-4-japan-105-pappeln-ruten-und-stecklinge/)
+planting_density_af;10000;NA;15000;posnorm;Af density [clone/ha];;(LEL - Landesanstalt für Entwicklung der Landwirtschaft und der ländlichen Räume)
+planting_cost_af;0.0015;NA;0.0035;posnorm;Price clone planting [â‚¬/piece];;(Aust et al., 2013) & (LEL - Landesanstalt für Entwicklung der Landwirtschaft und der ländlichen Räume)
+harvesting_cost_af;3.75;NA;22.5;posnorm;Harvesting cost wood [â‚¬/ha];;(LEL - Landesanstalt für Entwicklung der Landwirtschaft und der ländlichen Räume)
+power_density;180;NA;215;posnorm;Power density  per m2;;(Abdelhamid et al., 2014)
+energy_market_price;0.058;NA;0.058;const;Market price power [â‚¬/kwh];;"(Bayerische Landesanstalt für Landwirtschaft, 2023; EIGENSONNE, 2023)"
+solar_panel_efficiency;0.09;NA;0.2;posnorm;Absorption efficiency global radiation [%];;(Photovoltaic-software, 2023)
+Perfomance_ratio_panels;0.5;NA;0.75;posnorm ;Pv performance ratio;;(Photovoltaic-software, 2023)
+annual_cost_pv;6000;NA;12000;posnorm;Pv annual cost [â‚¬/ha];Insurrance for pv panels ;"(advisor from the agricultural extension agency of North Rhine-Westphalia (Landwirtschaftskammer - LWK; Neupane Bhandari et al., 2021)"
+discount_rate;2;NA;7;posnorm;Inflation [%];;(DESTATIS, 2023)
+field_preparation_mono;450;NA;450;const;Fix cost crop rotation [â‚¬/ha];;(Langenberg et al., 2018)
+yield_wood_af;8;NA;15;posnorm;Af yield wood [t DM/ha];;"(Murach et al., 200 ; Landwirtschaftskammer Nordrhein-Westfalen, 2012)"
+price_wood_af;72;NA;176;posnorm;Af price wood [â‚¬/t];;(C.A.R.M.E.N. e.V., 2023)
