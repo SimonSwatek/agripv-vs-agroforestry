@@ -66,7 +66,7 @@ decision-support. For this study we chose to compare the Agri-PV system to an ag
 
 
 ```{r , fig.align = 'center', echo=FALSE, message=FALSE, warning=FALSE, paged.print=FALSE, fig.cap="Fig.2: Dirk Freese 2014; in Quinkenstein et al., 2017"}
-knitr::include_graphics('the_real_KUP.jpeg')
+knitr::include_graphics('the_real_KUP.png')
 ```
 
 
@@ -74,7 +74,7 @@ knitr::include_graphics('the_real_KUP.jpeg')
 Agriphotovoltaic involves the combination of solar panels and agricultural activities on the same land. The panels are elevated to create a canopy that provides shade for crops while generating renewable energy. This approach maximizes the use of land by allowing dual-purpose utilization for electricity production and agricultural cultivation. Agri-PV systems offer advantages such as increased renewable energy generation, improved water efficiency, and potential financial benefits from selling surplus energy.
 On the other hand, agroforestry is a land use system that integrates trees or shrubs with agricultural crops or livestock. It involves the deliberate planting of trees alongside or within agricultural fields. Agroforestry systems can take various forms, including alley cropping, silvopasture, or windbreaks. These systems offer several benefits, such as improved soil fertility, increased biodiversity, and enhanced climate resilience. The trees provide shade, wind protection, and nutrient cycling, which can positively impact crop yields and animal welfare.
 
-![Fig3: Agrophotovoltaic system, ÖkoHaus GmbH](./agripv.png)
+![Fig. 3: Agrophotovoltaic system, ÖkoHaus GmbH](./agripv.png)
 
 >When comparing the two approaches for energy production on the farm, several factors come into play. Agriphotovoltaic systems excel in generating renewable energy and can provide a stable additional income stream for farmers. They require less time to establish compared to agroforestry systems and have a relatively low maintenance requirement. However, Agri-PV systems may have higher upfront costs associated with solar panel installation and require careful planning to optimize the arrangement of panels and crops.
 Agroforestry, on the other hand, offers a range of ecological benefits beyond energy production. The integration of trees improves soil health, reduces erosion, and enhances carbon sequestration. Agroforestry systems contribute to biodiversity conservation by providing habitat for wildlife and supporting pollinators. They can also help mitigate the impacts of climate change by providing shade and wind protection to crops and livestock.
@@ -218,6 +218,125 @@ The lower boundry of the 5 - 25 percentile for Crop Rotation ends approximately 
 
 # 08 Discussion 
 
-> 
+> Agri-PV or AFS as an extension of the production spectrum from a farm. In the project work we used decision analysis approaches to model the contribution margins of two potential energy production systems - Agri-PV and AFS - over a time horizon of 26 years, thus providing a decision support tool for farms. Decision outcomes were compared with crop rotation, whether a transition, thus a reduction of the area where crops could be cultivated, to the cultivation of energy equivalents is economically sensible. 
+
+> Our simulation results suggest the transition to AFS, as its NPV distribution is slightly more revenueable, than the NPV distribution of the pure Crop Rotation and clearly more revenueable than the NPV distribution of the Agri-PV (Fig. 7). There is a low probabilty that the outcome of Agri-PV system generates a negative outcome distribution, which underlines that this could be risky decision, without the chance of being more revenueable (Fig. 11).
+
+> These points are well conlcluded within the cashflow projection (Fig. 13). This figure forecasts a bigger profit for the transition to AFS compared to the normal Crop Rotation and to the Agri-PV. Also the big risk for Agri-PV is additionally underlnied with possible huge negative range. <br>
+The most influencial variables are being projected via VIP (Fig. 12). These three variables are all linked with the Agri-PV system. If the Initial investment costs and the annual running costs of the Agri-PV system can be reduced, than the NPV density distribution for the Agri-PV will be significantly positvely impacted. A potencial improvement of the PV panel design should impact the power densisty variable in positive way, because of a more consistent quality standard of the panels.<br>
+
+> Agri-PV systems are becoming increasingly attractive for agriculture, because they offer a way to keep domestic agriculture competitive with the international market and provide farmers with additional income.
+However, since we assumed a free-field PV system in the investment costs, these will be somewhat higher than an Agri-PV. However, if a decision is to be made based on the project results, we would suggest that efforts be made to include a defined crop size and more accurate costs to provide a more comprehensive picture.
+To quote the energy consultant from the agricultural extension agency of North Rhine-Westphalia (Landwirtschaftskammer - LWK), currently only Agri-PV systems are worthwhile, which are built cheaply. Otherwise the returns are too low. Policymakers must create framework conditions that make even smaller agri-PV systems economically attractive and enable farms to operate them themselves.
+
+# 09 Outlook
+
+> As mentioned above, in both systems we consider a complete hectare of the systems.
+This is because each system has a range of possible acreage that must be specified by the farmer.
+As mentioned above, within our model, we compared one hectare of each energy production component. The exact relations between the arable and the energy production component (i.e. the tree strips or the solar panels) can vary and are to be specified by the farmer.  
+This is no longer a consideration of a fictitious farmer, as we assumed in our project, but an exact situation.
+Since the variation widths in both systems do not have to be identical, but only can be, we decided for this procedure.
+
+> To maximize both agricultural yields and electricity production, appropriate crops must be selected in addition to the right system design.
+For example, in specialty crops such as berry bushes or fruit trees, which are normally grown under hail protection nets, solar modules placed above the crops can take over this protective function, leading to synergistic effects (Trommsdorf et al.,2022).
+However, the impact of shading on long-term yields and qualities is still part of the research (Marrou et al., 2013).
+
+
+> In order to achieve an optimal economic and ecological design and combination of plant systems and management of agricultural land, further data collection in different systems and the knowledge gained from this are necessary.
+In order to achieve an economically and ecologically optimal design of a mixed production system, further data collection and time is necessary.
+Within the framework of our project, the operation of two systems - Agri-PV and agroforestry - is scientifically examined.
+The focus here is  the economic consideration of the effects on agricultural management and energy production.
+The system also considered ecosystem services on the regular crop, public acceptance and efficiency losses of the panels due to bad consistency.
+
+
+# References
+
+Abdelhamid, M., Qattawi, A., Singh, R., & Haque, I. (2014). Comparison of an Analytical Hierarchy Process and Fuzzy Axiomatic Design for Selecting Appropriate Photovoltaic Modules for Onboard Vehicle Design. International Journal of Modern Engineering, 15, 23–35.
+<br>
+agriculture.ec.europa.eu. (2023, Juli 5). CAP 2023-27. https://agriculture.ec.europa.eu/common-agricultural-policy/cap-overview/cap-2023-27_en
+<br>
+Aust, J.-H., Bachmann, G., Bartsch, G., Brune, F., Ehm, T., Engel, J., Friedrich, N., Grienitz, H., Guder, R., Guerrero, C., Hahndorf, R., Hartmann, H., Hebler, R., Hempen-Hermeier, U., Hohm, C., Knoche, D., Lange, C., Lange, M., Lemme, J., … Sobioch, C. (2013, August). Energieholz aus Kurzumtriebsplantagen - Leitfaden für Produzenten und Nutzer im Land Brandenburg. https://www.lignovis.com/fileadmin/user_upload/PDF/Ext/2013_08_Energieholz_aus_Kurzumtriebsplantagen_ETI_Brandenburg.pdf
+<br>
+Bellini, E. (2021, März 26). Cost comparison between agrivoltaics and ground-mounted PV. Pv Magazine International. https://www.pv-magazine.com/2021/03/26/cost-comparison-between-agrivoltaics-and-ground-mounted-pv/
+<br>
+Bayerische Landesanstalt für Landwirtschaft (2023). Aktuelle Fördersätze für Photovoltaik-Anlagen ab 1. Januar 2023. LfL. https://www.lfl.bayern.de/iba/energie/161645/index.php
+<br>
+Böcker, T. (2022). Auswertung der Schlagkarteien für Getreide, Winterraps & Leguminosen - Ernte 2022 - Zusammengefasste Ergebnisse. Landwirtschaftskammer NRW.
+<br>
+Böhm, C. (2022). Themenblatt Nr. 3: Agroforstsysteme in der GAP ab 2023 – ein Überblick. https://agroforst-info.de/wp-content/uploads/2022/11/Themenblatt3-Agroforstsysteme-in-der-GAP-ab-2023.pdf
+<br>
+C.A.R.M.E.N. e.V. (2023). Marktpreise Hackschnitzel – C.A.R.M.E.N. e.V. https://www.carmen-ev.de/service/marktueberblick/marktpreise-energieholz/marktpreise-hackschnitzel/
+<br>
+DESTATIS. (2023). Verbraucherpreisindex und Inflationsrate. Statistisches Bundesamt. https://www.destatis.de/DE/Themen/Wirtschaft/Preise/Verbraucherpreisindex/_inhalt.html
+<br>
+EIGENSONNE. (2023). Einspeisevergütung 2023: Wie viel bekommst Du für Deinen Solarstrom? EIGENSONNE. https://www.eigensonne.de/ratgeber/photovoltaik/einspeiseverguetung/
+<br>
+Deutscher Bauernverband (2022). Agri-Photovoltaik: bessere Chancen für kleinere Anlagen.(extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.bauernverband.de/fileadmin/user_upload/dbv/pressemitteilungen/2022/KW_21_bis_KW_40/KW_41/2022_-_130_PM_Agri-Photovoltaik_Korrektur.pdf)
+<br>
+European Commission. Joint Research Centre. (2019). Brief on biomass for energy in the European Union. Publications Office. https://data.europa.eu/doi/10.2760/546943
+<br>
+Fraunhofer-Institut für Solare Energiesysteme ISE (2023).
+Aktuelle Fakten zur Photovoltaik in Deutschland, PSE PSE Projects GmbH. https://www.ise.fraunhofer.de/de/veroeffentlichungen/studien/aktuelle-fakten-zur-photovoltaik-in-deutschland.html
+<br>
+ICRAF. (2017). World Agroforestry | Transforming Lives and Landscapes with Trees. https://www.worldagroforestry.org/sites/default/files/users/admin/Strategy%20Report_2017.pdf
+<br>
+Jose, S. (2009). Agroforestry for ecosystem services and environmental benefits: an overview. Agroforestry Systems, 76(1), 1–10. https://doi.org/10.1007/s10457-009-9229-7
+<br>
+Kang, J., Reise, C., Schindele, S., Bopp, G., Ehmann, A., Weselek, A., Högy, P., Obergfell, T., & Trommsdorff, M. (2021). Combining food and energy production: Design of an agrivoltaic system applied in arable and vegetable farming in Germany. Renewable and Sustainable Energy Reviews, 140, 110694. https://doi.org/10.1016/j.rser.2020.110694
+<br>
+Langenberg, J., Feldmann, M., Theuvsen, L., Langenberg, J., Feldmann, M., & Theuvsen, L. (2018). Agroforstsysteme im Alley-Cropping-Anbauverfahren: Eine Risikoanalyse im Vergleich zum klassischen Ackerbau anhand der Monte-Carlo-Simulation. https://doi.org/10.22004/AG.ECON.309977
+<br>
+LEL - Landesanstalt für Entwicklung der Landwirtschaft und der ländlichen Räume (. (2010). KUP-Rechner, Version 1 .0, LEL Schwäbisch Gemünd. https://lel.landwirtschaft-bw.de/pb/,Lde/Startseite/Service_+Downloads/Downloads
+<br>
+Lewicki, P. (2013, Juni 10). Erneuerbare Energien in Zahlen [Text]. Umweltbundesamt; Umweltbundesamt. https://www.umweltbundesamt.de/themen/klima-energie/erneuerbare-energien/erneuerbare-energien-in-zahlen
+<br>
+Luedeling, E., Goehring, L., Schiffers, K., Whitney, C. and E. Fernandez (2021). decisionSupport: Quantitative Support of Decision Making Under Uncertainty. https://cran.r-project.org/web/packages/decisionSupport/index.html
+<br>
+Marrou, H. Guilioni, L., Dufour ,L. ,  Dupraz,L. and J. Wery,
+Microclimate under agrivoltaic systems: Is crop growth rate affected in the partial shade of solar panels?, Agricultural and Forest Meteorology,
+Volume 177, 2013, Pages 117-132, ISSN 0168-1923, https://doi.org/10.1016/j.agrformet.2013.04.012.
+<br>
+Murach, D., Hartmann, H., Murn, Y., Schultze, M., Wael, A., & Röhle, H. (2009). Standortsbasierte Leistungsschätzung in Agrarholzbeständen in Brandenburg und Sachsen. In T. Reeg, A. Bemmann, W. Konold, D. Murach, & H. Spiecker (Hrsg.), Anbau und Nutzung von Bäumen auf Landwirtschaftlichen Flächen (1. Aufl., S. 29–40). Wiley. https://doi.org/10.1002/9783527627462.ch4
+<br>
+
+Neupane Bhandari, S., Schlüter, S., Kuckshinrichs, W., Schlör, H., Adamou, R., & Bhandari, R. (2021). Economic Feasibility of Agrivoltaic Systems in Food-Energy Nexus Context: Modelling and a Case Study in Niger. Agronomy, 11(10), 1906. https://doi.org/10.3390/agronomy11101906
+<br>
+Ninan, K. N., & Inoue, M. (2013). Valuing forest ecosystem services: Case study of a forest reserve in Japan. Ecosystem Services, 5, 78–87. https://doi.org/10.1016/j.ecoser.2013.02.006
+<br>
+Photovoltaic-Software. (2023). How to calculate output energy of PV solar systems? https://photovoltaic-software.com/principle-ressources/how-calculate-solar-energy-power-pv-systems
+<br>
+Quinkenstein, A., Tsonkova, P., & Freese, D. (2017). Alley Cropping with Short Rotation Coppices in the Temperate Region: A Land-use Strategy for Optimizing Microclimate, Soil Organic Carbon and Ecosystem Service Provision of Agricultural Landscapes. In Agroforestry (S. 263–297). Springer, Singapore. https://doi.org/10.1007/978-981-10-7650-3_10
+<br>
+Rundlöf, M., & Smith, H. G. (2006). The effect of organic farming on butterfly diversity depends on landscape context: Organic farming, landscape and butterflies. Journal of Applied Ecology, 43(6), 1121–1127. https://doi.org/10.1111/j.1365-2664.2006.01233.x
+<br>
+Schweier, J., & Becker, G. (2013). Economics of poplar short rotation coppice plantations on marginal land in Germany. Biomass and Bioenergy, 59, 494–502. https://doi.org/10.1016/j.biombioe.2013.10.020
+<br>
+Strohm, K., Schweinle, Jörg, Liesebach, Mirko, Osterburg, Bernhard, Rödl, Anne, Baum, Sarah, Nieberg, Hiltrud, Bolte, Andreas, & Walter, Katja. (2012). Kurzumtriebsplantagen aus ökologischer und ökonomischer Sicht. Arbeitsberichte aus der vTI-Agrarökonomie, 89.
+<br>
+Top agrar (2022).Freiflächen-Photovoltaik: Geldsegen mit TückenLandwirtschaftsverlag.
+extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.wetreu.de/fileadmin/user_upload/publikationen/top_agrar_062021_Erbschaftssteuer_Photovoltaik.pdf
+<br>
+Trommsdorff, M., Berwind, M., Schwenke, J., Kammann, C., Stoll, M., Kärtner, T., Hannus, V., Müller, K., Schurr, U., Meier, M., Pataczek, L., Schweiger, A., Wydra, K., Heintze, G., Straubing, F., Eisel, D., Straubing, F., Feistel, U., Wild, K., … Weihenstephan-Triesdorf, H. (2021). Begleitforschung im Forschungsnetzwerk Erneuerbare Energien - Photovoltaik: Themensteckbrief der Arbeitsgruppe Agri-Photovoltaik.
+<br>
+Walston, L. J., Barley, T., Bhandari, I., Campbell, B., McCall, J., Hartmann, H. M., & Dolezal, A. G. (2022). Opportunities for agrivoltaic systems to achieve synergistic food-energy-environmental needs and address sustainability goals. Frontiers in Sustainable Food Systems, 6, 932018. https://doi.org/10.3389/fsufs.2022.932018
+<br>
+Weselek, A., Ehmann, A., Zikeli, S., Lewandowski, I., Schindele, S.
+and P.Högy (2019). Agrophotovoltaic systems: applications, challenges, and opportunities. A review. Agronomy for Sustainable Development 39(4), S. 35
+<br>
+Whitney, C., Shepherd, K., & Luedeling, E. (2018). Decision analysis methods guide; Agricultural policy for nutrition. World Agroforestry Centre. https://doi.org/10.5716/WP18001.PDF
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
