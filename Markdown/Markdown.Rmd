@@ -218,35 +218,37 @@ The lower boundary of the 5 - 25 percentile for Crop Rotation ends approximately
 
 # 08 Discussion 
 
-> Agri-PV or AFS as an extension of the production spectrum from a farm. In the project work we used decision analysis approaches to model the contribution margins of two potential energy production systems - Agri-PV and AFS - over a time horizon of 26 years, thus providing a decision support tool for farms. Decision outcomes were compared with crop rotation, whether a transition, thus a reduction of the area where crops could be cultivated, to the cultivation of energy equivalents is economically sensible. 
+> We examined Agri-PV or AFS as an extension of the production spectrum from a farm. In the project work we used decision analysis approaches to model the contribution margins of two potential energy production systems - Agri-PV and AFS - over a time horizon of 26 years, thus providing a decision support tool for farms. Decision outcomes were compared with crop rotation, whether a transition, thus a reduction of the area where crops could be cultivated, to the cultivation of energy equivalents is economically sensible. 
 
-> Our simulation results suggest the transition to AFS, as its NPV distribution is slightly more revenueable, than the NPV distribution of the pure Crop Rotation and clearly more revenueable than the NPV distribution of the Agri-PV (Fig. 7). There is a low probability that the outcome of Agri-PV system generates a negative outcome distribution, which underlines that this could be a risky decision, without the chance of being more revenueable (Fig. 11).
+> Our simulation results suggest the transition to AFS, as its NPV distribution is slightly more revenueable, than the NPV distribution of the pure Crop Rotation and clearly more revenueable than the NPV distribution of the Agri-PV (Fig. 7). There is a low probabilty that the outcome of Agri-PV system generates a negative outcome distribution, which underlines that this could be risky decision, without the chance of being more revenueable (Fig. 11).
 
-> These points are well concluded within the cashflow projection (Fig. 13). This figure forecasts a bigger profit for the transition to AFS compared to the normal Crop Rotation and to the Agri-PV. Also the big risk for Agri-PV is additionally underlined with a possible huge negative range. <br>
-The most influential variables are being projected via VIP (Fig. 12). These three variables are all linked with the Agri-PV system. If the initial investment costs and the annual running costs of the Agri-PV system can be reduced, then the NPV density distribution for the Agri-PV will be significantly positively impacted. A potential improvement of the PV panel design should impact the power density variable in a positive way, because of a more consistent quality standard of the panels.<br>
+> These points are well conlcluded within the cashflow projection (Fig. 13). This figure forecasts a bigger profit for the transition to AFS compared to the normal Crop Rotation and to the Agri-PV. Also the big risk for Agri-PV is additionally underlnied with possible huge negative range. <br>
+The most influencial variables are being projected via VIP (Fig. 12). These three variables are all linked with the Agri-PV system. If the Initial investment costs and the annual running costs of the Agri-PV system can be reduced, than the NPV density distribution for the Agri-PV will be significantly positvely impacted. A potencial improvement of the PV panel design should impact the power densisty variable in positive way, because of a more consistent quality standard of the panels.<br>
 
-> Agri-PV systems are becoming increasingly attractive for agriculture, because they offer a way to keep domestic agriculture competitive with the international market and provide farmers with additional income.
-However, since we assumed a free-field PV system in the investment costs, these will be somewhat higher than an Agri-PV. However, if a decision is to be made based on the project results, we would suggest that efforts be made to include a defined crop size and more accurate costs to provide a more comprehensive picture.
-To quote the energy consultant from the agricultural extension agency of North Rhine-Westphalia (Landwirtschaftskammer - LWK), currently only Agri-PV systems are worthwhile, which are built cheaply. Otherwise the returns are too low. Policymakers must create framework conditions that make even smaller agri-PV systems economically attractive and enable farms to operate them themselves.
+> Agri-PV systems are becoming increasingly attractive for agriculture, because they offer a way to keep domestic agriculture competitive with the international market and provide farmers with additional income. However, the selection of the right crop varieties as well as a well-thought systems design are needed to combine an efficient production of crops and solar energy on farm.
+The presented investment costs are based on free-field PV systems and not on allegedly cheaper Agri-PV systems and might therefore be overestimated.
+If a decision is to be made based on the project results, we would suggest to include a defined arable field size and more accurate cost estimations to provide a more comprehensive picture.
+To paraphrase the energy consultant from the agricultural extension agency of North Rhine-Westphalia (Landwirtschaftskammer - LWK), currently only Agri-PV systems are worthwhile, which are built cheaply, otherwise the returns might be too low. To allow for the decentralized supply of local renewable energy, policymakers must create the framework conditions that make even smaller agri-PV systems economically viable and enable farmers to operate them themselves.
+
 
 # 09 Outlook
 
 > As mentioned above, in both systems we consider a complete hectare of the systems.
-This is because each system has a range of possible acreage that must be specified by the farmer.
-As mentioned above, within our model, we compared one hectare of each energy production component. The exact relations between the arable and the energy production component (i.e. the tree strips or the solar panels) can vary and are to be specified by the farmer.  
-This is no longer a consideration of a fictitious farmer, as we assumed in our project, but an exact situation.
-Since the variation widths in both systems do not have to be identical, but only can be, we decided for this procedure.
+This is because each system has a range of possible sizes that must be specified by the farmer.
+The exact relations between the arable and the energy production component (i.e. the tree strips or the solar panels) can vary and are to be specified by the farmer.  
+This is no longer a consideration of the fictitious farmer we assumed in our project, but an specific situation.
+Since the  widths of energy production component in both systems do not have to be identical, but only can be, we decided on this procedure.
 
-> To maximize both agricultural yields and electricity production, appropriate crops must be selected in addition to the right system design.
-For example, in specialty crops such as berry bushes or fruit trees, which are normally grown under hail protection nets, solar modules placed above the crops can take over this protective function, leading to synergistic effects (Trommsdorf et al.,2022).
+> Furthermore, there are additional factors, which could change the outcome of our projection. For example, in specialty crops such as berry bushes or fruit trees, which are normally grown under hail protection nets, solar modules placed above the crops can take over this protective function, leading to synergistic effects (Trommsdorf et al.,2022).
 However, the impact of shading on long-term yields and qualities is still part of the research (Marrou et al., 2013).
 
+> In order to achieve an optimal economic and ecological design and combination of energy production systems and management of agricultural land, further data collection in different systems and the knowledge gained from this are necessary.
+Within the framework of our project, the operation of two systems - Agri-PV and agroforestry - is scientifically examined and compared.
+The focus of this study is  the economic viability of mixed production systems, and the consideration of effects of energy production on agricultural management.
+The system also considered ecosystem services on the regular crop, public acceptance and efficiency losses of the panels due to bad quality.
 
-> In order to achieve an optimal economic and ecological design and combination of plant systems and management of agricultural land, further data collection in different systems and the knowledge gained from this are necessary.
-In order to achieve an economically and ecologically optimal design of a mixed production system, further data collection and time is necessary.
-Within the framework of our project, the operation of two systems - Agri-PV and agroforestry - is scientifically examined.
-The focus here is  the economic consideration of the effects on agricultural management and energy production.
-The system also considered ecosystem services on the regular crop, public acceptance and efficiency losses of the panels due to bad consistency.
+> Change in legislation, policy and technical innovation could lead to a promotion of the Agri-PV system. Stronger interests in ecosystem services and wood as a renewable source of energy and construction material could lead to a promotion and higher subsidies for Agroforestry systems. 
+This dichotomy makes it challenging to predict which of the two systems become more viable in the future. However, combining the strengths of both systems is realistically the best option for a transition into a carbon neutral society.
 
 
 # References
