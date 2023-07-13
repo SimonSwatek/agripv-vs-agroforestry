@@ -80,10 +80,9 @@ In terms of energy production, should a commercial conventional arable farmer in
 Based on these guiding questions, two scenarios can be derived which we referred to in our
 decision-support. For this, we clearly defined them as follows:
 
-**JULIA GO***
+AFS: For this study we chose to compare the agri-PV system to an agroforestry system, consisting of arable crop land and tree strips of fast-growing poplar trees. This type of AFS falls within the broad definition of silvoarable AFS or "alley cropping systems". The tree strips consist of multiple rows of trees, that are densely planted (10.000 – 15.000 trees/ha) forming a dense hedgerow-like structure, that is regularly coppiced. The width of the tree strips can range from 3-25m and can legally occupy 2-35% of the arable field to be registered as an agroforestry system and be eligible to funding (see figure 2).
 
-
-[Fig3: Decision options](./Decision_grafic.png)
+Agri-PV: In ground-mounted systems, typically only the areas between the PV modules are farmed. The advantages of ground-mounted systems are primarily their lower cost and low impact on the landscape (see figure 1). Vertically arranged modules in ground-mounted systems typically have maximum electricity production in the morning and evening hours.
 
 
 # Decision Maker
@@ -169,13 +168,8 @@ Due to complexity reasons this has not been considered yet.
 Luedeling, Eike, Lutz Goehring, Katja Schiffers, Cory Whitney, and Eduardo Fernandez. 2021. decisionSupport: Quantitative Support of Decision Making Under Uncertainty. https://cran.r-project.org/web/packages/decisionSupport/index.html.
 
 Weselek, A., Ehmann, A., Zikeli, S., Lewandowski, I., Schindele, S.
-and P.
-Högy.
-2019.
-Agrophotovoltaic systems: applications, challenges, and opportunities.
-A review.
-Agronomy for Sustainable Development 39(4), S.
-35
+and P.Högy. 2019. Agrophotovoltaic systems: applications, challenges, and opportunities.
+A review. Agronomy for Sustainable Development 39(4), S. 35
 
 Fraunhofer-Institut für Solare Energiesysteme ISE.
 2023.
@@ -187,11 +181,10 @@ Deutscher Bauernverband.
 Agri-Photovoltaik: bessere Chancen für kleinere Anlagen.
 (extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.bauernverband.de/fileadmin/user_upload/dbv/pressemitteilungen/2022/KW_21_bis_KW_40/KW_41/2022_-_130_PM_Agri-Photovoltaik_Korrektur.pdf)
 
-Top agrar.
-(2022).
+Top agrar.2022.
 Freiflächen-Photovoltaik: Geldsegen mit TückenLandwirtschaftsverlag.
 <extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.wetreu.de/fileadmin/user_upload/publikationen/top_agrar_062021_Erbschaftssteuer_Photovoltaik.pdf>
 
-Universität Hohenheim (2021).BEGLEITFORSCHUNG IM FORSCHUNGSNETZWERK ERNEUERBARE ENERGIEN – PHOTOVOLTAIK. Universität Hohenheim. <chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.uni-hohenheim.de/uploads/media/Themensteckbrief_Agri-PV.pdf>
+Universität Hohenheim. 2021.BEGLEITFORSCHUNG IM FORSCHUNGSNETZWERK ERNEUERBARE ENERGIEN – PHOTOVOLTAIK. Universität Hohenheim. <chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.uni-hohenheim.de/uploads/media/Themensteckbrief_Agri-PV.pdf>
 
 
