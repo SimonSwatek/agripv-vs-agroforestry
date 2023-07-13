@@ -34,7 +34,6 @@ Group Project by Julia, Jonas, Nick, Robin, Simon
 
 # Introduction 
 
-<<<<<<< HEAD
 Calls for the use of renewable energies are becoming louder and louder, and demands to save energy wherever possible are becoming more and more frequent.
 One thing is clear: we need innovative solutions.
 Agriphotovoltaics (Agri-PV) and agroforestry could be one of them.
