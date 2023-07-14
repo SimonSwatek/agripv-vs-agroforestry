@@ -1,0 +1,27 @@
+variable;lower;median ;upper;distribution;label;Description;Sources
+crop_price;200;NA;300;posnorm;Price of wheat [€/t];Market price wheat per t;https://www.raiffeisen.com/markt/telegramm/produkt/euronext/weizen/index.html
+crop_area;1;NA;1;const;Crop/ha;is only applied for wheat monoculture;/
+crop_Yield;7;NA;8;posnorm;Yield of crop [t/ha];Crops that are grown on the field ;https://www.bauernverband.de/topartikel/bauernverband-erntebilanz-2022
+subsidies_af;60;NA;60;const;Subsidies_af [€/ha];Subsidies for area of agroforestry;GAP 23
+investment_cost_pv;25000;NA;30800;posnorm;Investment cost pv  [€/ha];Investment cost of the APV System /26 years = n_years, input tabelle ;https://www.pv-magazine.com/2021/03/26/cost-comparison-between-agrivoltaics-and-ground-mounted-pv/
+annual_cost_af;500;NA;500;const;Annual cost af  [€/ha];annual cost of the AF System;https://www.sciencedirect.com/science/article/abs/pii/S096195341300442X?via%3Dihub
+investment_cost_af;50;NA;50;const;Investment cost af  [€/ha];Investment cost of the AF System;https://www.landwirtschaft.sachsen.de/bpsplanweb/planung/konventionell/maschinenkostendetail/5958?Mechanisierungsvariante=0&Leistungsgruppe=0&Gebiet=0
+ecosystem_service_af;1000;NA;13000;posnorm;Ecosystem service cost af  [€/ha];additional gain of species and reduction of Inputs of the AF System;https://www.sciencedirect.com/science/article/abs/pii/S2212041613000156#preview-section-references
+n_years;26;NA;26;const;"Integer; number of values to produce";production time window ;/
+var_CV;8;NA;12;posnorm;Coefficient of variation;;/
+area_pv;0.1;NA;0.3;posnorm;Area pv strips [%] ;How much area is used for photovoltaic installation;/
+area_af;0.1;NA;0.3;posnorm;Area af strips [%] ;How much area is used for agroforestry installation;/
+field_preparation_af;1.73;NA;6.53;posnorm;Af field preparation [Euro/ha];;https://www.lignovis.com/fileadmin/user_upload/PDF/Ext/2013_08_Energieholz_aus_Kurzumtriebsplantagen_ETI_Brandenburg.pdf
+price_cutting_af;0.001;NA;0.018;posnorm;Af price per clone [€/piece];;https://www.energiepflanzen.com/product/max-4-japan-105-pappeln-ruten-und-stecklinge/
+planting_density_af;10000;NA;15000;posnorm;Af density [clone/ha];;LEL Gmünd
+planting_cost_af;0.0015;NA;0.0035;posnorm;Price clone planting [€/piece];;https://www.lignovis.com/fileadmin/user_upload/PDF/Ext/2013_08_Energieholz_aus_Kurzumtriebsplantagen_ETI_Brandenburg.pdf
+harvesting_cost_af;3.75;NA;22.5;posnorm;Harvesting cost wood [€/ha];;LEL Gmünd
+power_density;180;NA;215;posnorm;Power density  per m2;;https://www.researchgate.net/figure/Power-Density-and-Efficiency-Factors-of-the-Commercial-PV-Module-Types_fig1_274140138
+energy_market_price;0.058;NA;0.058;const;Market price power [€/kwh];;https://www.eigensonne.de/ratgeber/photovoltaik/einspeiseverguetung/, https://echtsolar.de/einspeiseverguetung/
+solar_panel_efficiency;0.09;NA;0.2;posnorm;Absorption efficiency global radiation [%];;https://photovoltaic-software.com/principle-ressources/how-calculate-solar-energy-power-pv-systems
+Perfomance_ratio_panels;0.5;NA;0.75;posnorm ;Pv performance ratio;;https://photovoltaic-software.com/principle-ressources/how-calculate-solar-energy-power-pv-systems
+annual_cost_pv;6000;NA;12000;posnorm;Pv annual cost [€/ha];Insurrance for pv panels ;https://juser.fz-juelich.de/record/904287/files/agronomy-11-01906.pdf#specialtable.caption.15
+discount_rate;2;NA;7;posnorm;Inflation [%];;https://www.destatis.de/DE/Themen/Wirtschaft/Preise/Verbraucherpreisindex/_inhalt.html
+field_preparation_mono;450;NA;450;const;Fix cost monoculture [€/ha];;https://bbgoettingen.de/publikationen/wirtschaftlichkeit_anbaukulturen_macke.pdf
+yield_wood_af;8;NA;15;posnorm;Af yield wood [t DM/ha];;https://www.landwirtschaftskammer.de/landwirtschaft/ackerbau/nawaro/kurzumtriebsplantagen.htm
+price_wood_af;72;NA;176;posnorm;Af price wood [€/t];;https://www.carmen-ev.de/service/marktueberblick/marktpreise-energieholz/marktpreise-hackschnitzel/
