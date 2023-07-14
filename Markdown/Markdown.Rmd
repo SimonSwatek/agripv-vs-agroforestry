@@ -159,7 +159,7 @@ df <- read.csv2("input_estimates_project_Sources.csv")
 
 ## 07.1 MonteCarlo-Simulation
 
-```{r , fig.align = 'center', echo=FALSE, message=FALSE, warning=FALSE, paged.print=FALSE, fig.cap="Fig.7: Comparision of differend NPVs"}
+```{r , fig.align = 'center', echo=FALSE, message=FALSE, warning=FALSE, paged.print=FALSE, fig.cap="Fig.6: Comparision of differend NPVs"}
 knitr::include_graphics('mc_simulation_3_decision.png')
 ```
 
