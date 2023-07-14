@@ -61,11 +61,11 @@ While diversification of income streams is an effective risk management strategy
 Based on these guiding questions, two scenarios can be derived which we referred to in our
 decision-support. For this study we chose to compare the Agri-PV system to an agroforestry system, consisting of arable crop land and tree strips of fast-growing poplar trees. 
 
-> This type of AFS falls within the broad definition of silvoarable AFS or "alley cropping systems". The tree strips consist of multiple rows of trees, that are densely planted (10.000 – 15.000 trees/ha) forming a dense hedgerow-like structure, that is regularly coppiced. The width of the tree strips can range from 3-25 m and can legally occupy 2-35 % of the arable field to be registered as an agroforestry system and be eligible to funding (Böhm, 2022)(see Fig. 2).
+> This type of AFS falls within the broad definition of silvoarable AFS or "alley cropping systems". The tree strips consist of multiple rows of trees, that are densely planted (10.000 – 15.000 trees/ha) forming a dense hedgerow-like structure, that is regularly coppiced. The width of the tree strips can range from 3-25 m and can legally occupy 2-35 % of the arable field to be registered as an agroforestry system and be eligible to funding (Böhm, 2022)(see Fig. 1).In ground-mounted Agri-PV systems, typically only the areas between the PV modules are farmed (see figure 1). The advantages of ground-mounted systems are primarily their lower cost and low impact on the landscape. Vertically arranged modules in ground-mounted systems typically have maximum electricity production in the morning and evening hours.
 
 
 
-```{r , fig.align = 'center', echo=FALSE, message=FALSE, warning=FALSE, paged.print=FALSE, fig.cap="Fig.2: Dirk Freese 2014; in Quinkenstein et al., 2017"}
+```{r , fig.align = 'center', echo=FALSE, message=FALSE, warning=FALSE, paged.print=FALSE, fig.cap="Fig.1: Dirk Freese 2014; in Quinkenstein et al., 2017"}
 knitr::include_graphics('the_real_KUP.jpg')
 ```
 
@@ -74,7 +74,7 @@ knitr::include_graphics('the_real_KUP.jpg')
 Agriphotovoltaic involves the combination of solar panels and agricultural activities on the same land. The panels are elevated to create a canopy that provides shade for crops while generating renewable energy. This approach maximizes the use of land by allowing dual-purpose utilization for electricity production and agricultural cultivation. Agri-PV systems offer advantages such as increased renewable energy generation, improved water efficiency, and potential financial benefits from selling surplus energy.
 On the other hand, agroforestry is a land use system that integrates trees or shrubs with agricultural crops or livestock. It involves the deliberate planting of trees alongside or within agricultural fields. Agroforestry systems can take various forms, including alley cropping, silvopasture, or windbreaks. These systems offer several benefits, such as improved soil fertility, increased biodiversity, and enhanced climate resilience. The trees provide shade, wind protection, and nutrient cycling, which can positively impact crop yields and animal welfare.
 
-![Fig. 3: Agrophotovoltaic system, ÖkoHaus GmbH](./agripv.png)
+![Fig. 2: Agrophotovoltaic system, ÖkoHaus GmbH](./agripv.png)
 
 >When comparing the two approaches for energy production on the farm, several factors come into play. Agriphotovoltaic systems excel in generating renewable energy and can provide a stable additional income stream for farmers. They require less time to establish compared to agroforestry systems and have a relatively low maintenance requirement. However, Agri-PV systems may have higher upfront costs associated with solar panel installation and require careful planning to optimize the arrangement of panels and crops.
 Agroforestry, on the other hand, offers a range of ecological benefits beyond energy production. The integration of trees improves soil health, reduces erosion, and enhances carbon sequestration. Agroforestry systems contribute to biodiversity conservation by providing habitat for wildlife and supporting pollinators. They can also help mitigate the impacts of climate change by providing shade and wind protection to crops and livestock.
@@ -94,7 +94,7 @@ Ultimately, the choice between agriphotovoltaic and agroforestry for energy prod
 
 > The head of an arable farming operation notice the current tense situation on the energy market and realize that they no longer only are responsible for food production, but also have the opportunity to contribute to the local energy security by supplying renewable energy with the land they farm. They are already familiar with the concepts of agroforestry and  agrophotovoltaics, and are convinced of the ecological benefits of dividing large fields to create 'ecotones' (the boarder of two seperate adjecent ecosystems) and structural elements to promote local biodiversity (see e.g.: JOSE, 2009). However, they will only consider setting up a new system if they can continue to farm at least as profitably as before. They wonder, which system would generate the highest net present value and how the two energy production systems compare to their standard arable operation.
 
-```{r,echo=TRUE, message=FALSE, warning=FALSE, fig.cap="Fig. 4: Location"}
+```{r,echo=TRUE, message=FALSE, warning=FALSE, fig.cap="Fig. 3: Location"}
 library(chillR)
 library(leaflet)
 library(dplyr)
@@ -124,13 +124,13 @@ leaflet() %>%
 # 05 Conceptual Model
 
 > The conceptual model of the decision consists of two main parts (see figure 4).
-The first part includes the direct investment costs, the running costs and the profit of both decision options (see Fig. 5).
-The actual conceptual model is illustrated in Fig. 5.
+The first part includes the direct investment costs, the running costs and the profit of both decision options (see Fig. 4).
+The actual conceptual model is illustrated in Fig. 4.
 The cost of an agroforestry system is composed of the investment cost, the running cost, and the profit margin. Investment costs include mainly those for consultation as well as planning of the system, costs for wages and the transplants. Running costs are the recurring cost items of maintaining the agroforestry system. These are costs mainly in the first three years. This includes watering the cuttings and good weed management. In addition, we have included the risk of price fluctuation, which can occur either in the timber yield or in the timber price. In both cases, mainly the profit margin would be reduced. The only constant regarding the calculation of the profit margin is assumed to be the support from the CAP (Common Agricultural Policy). The other component of the model consists of the agri-PV system. So, similar to agroforestry, it is about the cost and the profit in terms of energy production. The profit is mainly derived from the Renewable Energy Sources Act (EEG) price and the amount of solar irradiation, which is influenced by the location. For the costs, a distinction was made between investment and running costs. Investment costs include photovoltaic modules, substructure, grid feed, inverter, price of installation and mounting. The running costs include the deposit insurance to operate an agri-PV system and the maintenance costs.<br>
 These costs were expressed on a per hectare basis so that they could be scaled between the two main parts of the decision.
 
 
-![Fig. 5: Conceptual Model](./conceptual_model.png)
+![Fig. 4: Conceptual Model](./conceptual_model.png)
 
 # 06 Input table
 >The values of each variable are given as the lower and upper limit of a range covering the 90 % confidence interval of the distribution.
@@ -144,14 +144,14 @@ The input estimates for the agroforestry system were derived from systems, which
 
 
 
-```{r, warning=FALSE, fig.cap="Fig. 6: Input Data as estimates"} 
+```{r, warning=FALSE, fig.cap="Fig. 5: Input Data as estimates"} 
 library(kableExtra)
 df <- read.csv2("input_estimates_project_Sources.csv")
    kable(df) %>%    
    kable_styling("striped", position = "left", font_size = 10)  
 ```
   
-> > The important variables from (Fig. 9) <br> "Pv annual costs"     [€/ha]: The annual running costs of the power installation <br>
+> > The important variables from (Fig. 8) <br> "Pv annual costs"     [€/ha]: The annual running costs of the power installation <br>
 "Investment costs pv" [€/ha]: The initial installation costs broken down over the time span of usage that is 26 years; divided by n_years = 26 <br>
 "Power density"       [W/sqm]: The absorption solar radiation by the panels per square meter (sqm).  
   
@@ -163,43 +163,43 @@ df <- read.csv2("input_estimates_project_Sources.csv")
 knitr::include_graphics('mc_simulation_3_decision.png')
 ```
 
-> Monte-Carlo simulation of for the three possible decisions Agroforestry, Photovoltaic or Crop Rotation (Fig. 7). The probabilities for possible revenue or loss are graphed with this density histograms for intuitive comparison, ultimately guiding the decision process with figures that are as scientific as possible. <br>The x-axis shows outcome distribution in €/ha over the time span n_years = 26. <br>
+> Monte-Carlo simulation of for the three possible decisions Agroforestry, Photovoltaic or Crop Rotation (Fig. 6). The probabilities for possible revenue or loss are graphed with this density histograms for intuitive comparison, ultimately guiding the decision process with figures that are as scientific as possible. <br>The x-axis shows outcome distribution in €/ha over the time span n_years = 26. <br>
 The y-axis shows the density estimation that shows the probability of the linked outcomes. <br>
 The peak of the distributions for photovoltaic and for Crop Rotation 20,000€/ha and the peak of Agroforestry is slightly off-set to the right. Also the Agroforestry distribution is much flatter compared to the other two decision option distributions. These distributions for the decision options are heavily overlapping. That is why we looked more closely at the direct comparison between Photovoltaic and Crop Rotation (Fig.9). There are also some values from photovoltaic distributed in the negative realm of the scale. This range of the flat distributed values from -700,000€/ha to roughly -400,000€/ha.
 
 
-```{r , fig.align = 'center', echo=FALSE, message=FALSE, warning=FALSE, paged.print=FALSE, fig.cap="Fig. 8: Closer look into NPVs of Agroforestry and Crop Rotation"}
+```{r , fig.align = 'center', echo=FALSE, message=FALSE, warning=FALSE, paged.print=FALSE, fig.cap="Fig. 7: Closer look into NPVs of Agroforestry and Crop Rotation"}
 knitr::include_graphics('mc_simulation_af_crop_decision.png')
 
 ```
 
 > The exact same Monte-Carlo simulation, but without the values for Photovoltaics to better compare Agroforestry NPVs with Crop Rotation NPVs. This allows a better grasp of the Agroforestry distribution. Its peak seems to be at roughly 30,000€/ha, its lower boundary starts with 0€/ha and its upper boundary is about 110,000€/ha. Also a better look can be took of the Crop Rotation distribution. Its peak is at 20,000€/ha, its lower boundary is at 0€/ha and its upper boundary is at about 41,000€/ha.
 
-```{r , fig.align = 'center', echo=FALSE, message=FALSE, warning=FALSE, paged.print=FALSE, fig.cap="Fig. 9: Closer look into NPVs of Photovoltaics and Crop Rotation" }
+```{r , fig.align = 'center', echo=FALSE, message=FALSE, warning=FALSE, paged.print=FALSE, fig.cap="Fig. 8: Closer look into NPVs of Photovoltaics and Crop Rotation" }
 knitr::include_graphics('mc_simulation_pv_crop_decision.png')
 
 ```
 
-> The exact same Monte-Carlo simulation, but without the values for Agroforestry to better compare Photovoltaics NPVs with Crop Rotation NPVs. This allows a better grasp of the Photovoltaics distribution. Its peak seems to be at roughly 20,000€/ha. The Photovoltaics distribution is split into two sub-distributions. One with a smaller sample size of values in the negative realm of the outcome distribution scale, its boundaries are -700,000€/ha for the lower end and at -400,000/ha at the upper end (Fig. 4) and one with the majority of values in the positive range of outcome distributions with the lower boundary at 0€/ha and the upper boundary at 40,000€/ha. The values for Crop Rotation are the exact same as described in (Fig. 8).
+> The exact same Monte-Carlo simulation, but without the values for Agroforestry to better compare Photovoltaics NPVs with Crop Rotation NPVs. This allows a better grasp of the Photovoltaics distribution. Its peak seems to be at roughly 20,000€/ha. The Photovoltaics distribution is split into two sub-distributions. One with a smaller sample size of values in the negative realm of the outcome distribution scale, its boundaries are -700,000€/ha for the lower end and at -400,000/ha at the upper end (Fig. 3) and one with the majority of values in the positive range of outcome distributions with the lower boundary at 0€/ha and the upper boundary at 40,000€/ha. The values for Crop Rotation are the exact same as described in (Fig. 7).
 
 ## 07.2 Boxplot-Densitiy
-```{r , fig.align = 'center', echo=FALSE, message=FALSE, warning=FALSE, paged.print=FALSE, fig.cap="Fig. 10: Agroforestry NPV histogram with boxplot"}
+```{r , fig.align = 'center', echo=FALSE, message=FALSE, warning=FALSE, paged.print=FALSE, fig.cap="Fig. 9: Agroforestry NPV histogram with boxplot"}
 knitr::include_graphics('density_af.png')
 
 ```
 
-> The stand alone distribution for Agroforestry like in (Fig. 7,8,9). The Boxplot at the bottom is classifying the set of the values, highlighting the outliers and describing the distribution. The 25 percentile is roughly at 30,000€/ha; the median at roughly 36,000€/ha; its 75 percentile at 51,000€/ha. The maximum value is at roughly 136,000€/ha.
+> The stand alone distribution for Agroforestry like in (Fig. 6,7,8). The Boxplot at the bottom is classifying the set of the values, highlighting the outliers and describing the distribution. The 25 percentile is roughly at 30,000€/ha; the median at roughly 36,000€/ha; its 75 percentile at 51,000€/ha. The maximum value is at roughly 136,000€/ha.
 
 
-```{r , fig.align = 'center', echo=FALSE, message=FALSE, warning=FALSE, paged.print=FALSE, fig.cap="Fig. 11: Photovoltaics NPV histogram with boxplot"}
+```{r , fig.align = 'center', echo=FALSE, message=FALSE, warning=FALSE, paged.print=FALSE, fig.cap="Fig. 10: Photovoltaics NPV histogram with boxplot"}
 knitr::include_graphics('density_pv.png')
 
 ```
 
-> The stand alone distribution for Photovoltaics like in (Fig. 7,8,9). The Boxplot at the bottom is classifying the set of the values, highlighting the outliers and describing the distribution. The 25 percentile is roughly at 18,000€/ha; the median at roughly 20,000€/ha; its 75 percentile at 22,000€/ha. The maximum value is at roughly 40,000€/ha and the absolute lowest value is -950,000€/ha.
+> The stand alone distribution for Photovoltaics like in (Fig. 6,7,8). The Boxplot at the bottom is classifying the set of the values, highlighting the outliers and describing the distribution. The 25 percentile is roughly at 18,000€/ha; the median at roughly 20,000€/ha; its 75 percentile at 22,000€/ha. The maximum value is at roughly 40,000€/ha and the absolute lowest value is -950,000€/ha.
 
 ## 07.3 Variable Importance Projected
-```{r , fig.align = 'center', echo=FALSE, message=FALSE, warning=FALSE, paged.print=FALSE, fig.cap="Fig. 12: The most relevant variables projected as a barplot"}
+```{r , fig.align = 'center', echo=FALSE, message=FALSE, warning=FALSE, paged.print=FALSE, fig.cap="Fig. 11: The most relevant variables projected as a barplot"}
 knitr::include_graphics('VIP.png')
 
 ```
@@ -207,7 +207,7 @@ knitr::include_graphics('VIP.png')
 > With the pls analysis you can calculate the variable importance in projection (VIP). This score represents the importance of each variable for the calculated outcome. The important factors all have a value that is equal or  greater than one. The variables are also classified into influences: negative and positive influence. That means the variables are increasing or decreasing the NPVs of the three decision options. In our run the most important variables were: <br> "PV annual cost [€/ha]" , "PV Investment costs [€/ha]" and "Power density [W/sqm]".
 
 ## 07.4 Cashflow 
-```{r , fig.align = 'center', echo=FALSE, message=FALSE, warning=FALSE, paged.print=FALSE, fig.cap="Fig. 13: Cashflows of the decision options"}
+```{r , fig.align = 'center', echo=FALSE, message=FALSE, warning=FALSE, paged.print=FALSE, fig.cap="Fig. 12: Cashflows of the decision options"}
 knitr::include_graphics('g_cashflow.png')
 
 ```
@@ -220,10 +220,10 @@ The lower boundary of the 5 - 25 percentile for Crop Rotation ends approximately
 
 > We examined Agri-PV or AFS as an extension of the production spectrum from a farm. In the project work we used decision analysis approaches to model the contribution margins of two potential energy production systems - Agri-PV and AFS - over a time horizon of 26 years, thus providing a decision support tool for farms. Decision outcomes were compared with crop rotation, whether a transition, thus a reduction of the area where crops could be cultivated, to the cultivation of energy equivalents is economically sensible. 
 
-> Our simulation results suggest the transition to AFS, as its NPV distribution is slightly more revenueable, than the NPV distribution of the pure Crop Rotation and clearly more revenueable than the NPV distribution of the Agri-PV (Fig. 7). There is a low probabilty that the outcome of Agri-PV system generates a negative outcome distribution, which underlines that this could be risky decision, without the chance of being more revenueable (Fig. 11).
+> Our simulation results suggest the transition to AFS, as its NPV distribution is slightly more revenueable, than the NPV distribution of the pure Crop Rotation and clearly more revenueable than the NPV distribution of the Agri-PV (Fig. 6). There is a low probabilty that the outcome of Agri-PV system generates a negative outcome distribution, which underlines that this could be risky decision, without the chance of being more revenueable (Fig. 10).
 
-> These points are well conlcluded within the cashflow projection (Fig. 13). This figure forecasts a bigger profit for the transition to AFS compared to the normal Crop Rotation and to the Agri-PV. Also the big risk for Agri-PV is additionally underlnied with possible huge negative range. <br>
-The most influencial variables are being projected via VIP (Fig. 12). These three variables are all linked with the Agri-PV system. If the Initial investment costs and the annual running costs of the Agri-PV system can be reduced, than the NPV density distribution for the Agri-PV will be significantly positvely impacted. A potencial improvement of the PV panel design should impact the power densisty variable in positive way, because of a more consistent quality standard of the panels.<br>
+> These points are well conlcluded within the cashflow projection (Fig. 12). This figure forecasts a bigger profit for the transition to AFS compared to the normal Crop Rotation and to the Agri-PV. Also the big risk for Agri-PV is additionally underlnied with possible huge negative range. <br>
+The most influencial variables are being projected via VIP (Fig. 11). These three variables are all linked with the Agri-PV system. If the Initial investment costs and the annual running costs of the Agri-PV system can be reduced, than the NPV density distribution for the Agri-PV will be significantly positvely impacted. A potencial improvement of the PV panel design should impact the power densisty variable in positive way, because of a more consistent quality standard of the panels.<br>
 
 > Agri-PV systems are becoming increasingly attractive for agriculture, because they offer a way to keep domestic agriculture competitive with the international market and provide farmers with additional income. However, the selection of the right crop varieties as well as a well-thought systems design are needed to combine an efficient production of crops and solar energy on farm.
 The presented investment costs are based on free-field PV systems and not on allegedly cheaper Agri-PV systems and might therefore be overestimated.
